@@ -1,0 +1,1189 @@
+Relation: P19_place_of_birth
+Prompts:
+- 1.0000 <ENT0> was born in <ENT1> .
+Harvested Tuples:
++-----------------------------------------+--------------------------------+-------------------------------------------+
+|               Seed samples              |         Ours (Top 20)          | Ours (Random samples over top 200 tuples) |
++-----------------------------------------+--------------------------------+-------------------------------------------+
+|        ['Cynan Garwyn', 'Wales']        |   ['donald trump', 'Kenya']    |         ['marco', 'Buenos Aires']         |
+|       ['Phil Upchurch', 'Chicago']      |    ['david', 'Los Angeles']    |         ['shakespeare', 'Dublin']         |
+| ['Chiara Margarita Cozzolani', 'Milan'] |   ['david', 'San Francisco']   |            ['andrew', 'Boston']           |
+|      ['Lennie Tristano', 'Chicago']     |    ['james', 'Los Angeles']    |            ['michael', 'Texas']           |
+|      ['Hajime Mizoguchi', 'Tokyo']      |   ['james', 'San Francisco']   |            ['hsu', 'Shanghai']            |
+|                    \                    |   ['simon', 'San Francisco']   |           ['ryan', 'Minnesota']           |
+|                    \                    |    ['charles', 'San Jose']     |             ['max', 'Moscow']             |
+|                    \                    | ['charles', 'early childhood'] |        ['robert allen', 'Hamburg']        |
+|                    \                    |    ['peter', 'Los Angeles']    |            ['jupiter', 'July']            |
+|                    \                    |  ['charles', 'San Francisco']  |            ['mike', 'Seattle']            |
+|                    \                    |  ['alexander', 'Los Angeles']  |        ['william black', 'Atlanta']       |
+|                    \                    |      ['john', 'Chicago']       |            ['scott', 'Toronto']           |
+|                    \                    |       ['john', 'Boston']       |            ['david', 'Germany']           |
+|                    \                    |      ['simon', 'London']       |             ['fred', 'Berlin']            |
+|                    \                    |   ['hanson', 'Kansas State']   |            ['trump', 'Hawaii']            |
+|                    \                    |  ['wisdom', 'ancient times']   |        ['wisdom', 'ancient times']        |
+|                    \                    |     ['michael', 'Chicago']     |            ['simon', 'Canada']            |
+|                    \                    |      ['andrew', 'London']      |            ['kendra', 'Delhi']            |
+|                    \                    |    ['hanson', 'Minnesota']     |             ['chan', 'Moscow']            |
+|                    \                    |   ['marco', 'Buenos Aires']    |            ['sarah', 'Canada']            |
++-----------------------------------------+--------------------------------+-------------------------------------------+
+==================================================
+Relation: P20_place_of_death
+Prompts:
+- 1.0000 <ENT0>, a well-known artist and engraver, died in <ENT1> yesterday .
+Harvested Tuples:
++--------------------------------------+--------------------------------+-------------------------------------------+
+|             Seed samples             |         Ours (Top 20)          | Ours (Random samples over top 200 tuples) |
++--------------------------------------+--------------------------------+-------------------------------------------+
+| ['Henry Michell Wagner', 'Brighton'] |   ['walker', 'Los Angeles']    |           ['jackson', 'Detroit']          |
+|    ['Georg Scheffers', 'Berlin']     |       ['wood', 'London']       |           ['phoenix', 'Arizona']          |
+|        ['Max Ernst', 'Paris']        |     ['williams', 'London']     |              ['lee', 'Paris']             |
+|       ['Timoleon', 'Syracuse']       | ['anderson', 'San Francisco']  |         ['johnson', 'California']         |
+| ['Giorgio Levi Della Vida', 'Rome']  |      ['jones', 'London']       |          ['richard', 'Manhattan']         |
+|                  \                   |   ['weiss', 'San Francisco']   |          ['markham', 'Liverpool']         |
+|                  \                   |   ['taylor', 'Los Angeles']    |           ['thomas', 'hospital']          |
+|                  \                   | ['thompson', 'San Francisco']  |             ['france', 'Rome']            |
+|                  \                   | ['william smith', 'Edinburgh'] |             ['paul', 'Dublin']            |
+|                  \                   |       ['lee', 'London']        |            ['jones', 'Detroit']           |
+|                  \                   |     ['williams', 'Paris']      |           ['brazil', 'Houston']           |
+|                  \                   |       ['wood', 'Paris']        |           ['diamond', 'Arizona']          |
+|                  \                   |   ['ward', 'San Francisco']    |         ['kessler', 'Pittsburgh']         |
+|                  \                   |        ['lee', 'Paris']        |         ['edward', 'Philadelphia']        |
+|                  \                   |     ['johnson', 'London']      |       ['anderson', 'San Francisco']       |
+|                  \                   |       ['jones', 'Paris']       |            ['james', 'Florida']           |
+|                  \                   |     ['wood', 'California']     |            ['thomas', 'Berlin']           |
+|                  \                   |      ['wood', 'Chicago']       |            ['jones', 'Chicago']           |
+|                  \                   |     ['lee', 'California']      |             ['adams', 'Dubai']            |
+|                  \                   | ['sullivan', 'San Francisco']  |          ['bell', 'Philadelphia']         |
++--------------------------------------+--------------------------------+-------------------------------------------+
+==================================================
+Relation: P279_subclass_of
+Prompts:
+- 1.0000 <ENT0> is a type of <ENT1> that is characterized by its rapakivi texture .
+Harvested Tuples:
++-------------------------------------------------------+--------------------------------+-------------------------------------------+
+|                      Seed samples                     |         Ours (Top 20)          | Ours (Random samples over top 200 tuples) |
++-------------------------------------------------------+--------------------------------+-------------------------------------------+
+|          ['illiberal democracy', 'democracy']         |   ['potato', 'Sweet Potato']   |            ['fiber', 'fibrous']           |
+|                 ['city farm', 'farm']                 |  ['cabbage', 'Wild Cabbage']   |            ['cabbage', 'bean']            |
+| ['United States Marine Corps Scout Sniper', 'sniper'] |   ['vapor', 'liquid vapor']    |             ['panda', 'frog']             |
+|                    ['guk', 'soup']                    |  ['kushi', 'Japanese Sushi']   |          ['thamel', 'tooth bone']         |
+|                 ['salmorejo', 'soup']                 |    ['pottery', 'clay pot']     |        ['hairy', 'meat substitute']       |
+|                           \                           | ['chicken', 'ground chicken']  |           ['fructose', 'syrup']           |
+|                           \                           | ['cinnamon', 'dried cinnamon'] |            ['snapper', 'snake']           |
+|                           \                           |   ['shrimp', 'Shell Shrimp']   |            ['spine', 'tissue']            |
+|                           \                           |     ['spaghetti', 'pasta']     |              ['haze', 'dust']             |
+|                           \                           |    ['pork', 'frozen meat']     |           ['bacteria', 'yeast']           |
+|                           \                           |  ['grass', 'plant material']   |           ['cumin', 'groundnut']          |
+|                           \                           | ['vitamin', 'dietary vitamin'] |           ['fudge', 'chocolate']          |
+|                           \                           |   ['cattle', 'Wild Animal']    |           ['snapper', 'rodent']           |
+|                           \                           |    ['flesh', 'Human Flesh']    |           ['cinnamon', 'spice']           |
+|                           \                           |    ['hair', 'facial hair']     |             ['fairy', 'fowl']             |
+|                           \                           |   ['pork', 'frozen sausage']   |          ['hair', 'facial hair']          |
+|                           \                           |   ['frost', 'frozen crust']    |          ['spindle', 'woodwork']          |
+|                           \                           | ['frost', 'frozen substance']  |          ['panda', 'wild mammal']         |
+|                           \                           | ['thinning', 'water mineral']  |            ['flutter', 'fluff']           |
+|                           \                           |      ['rabbit', 'animal']      |          ['shrimp', 'shellfish']          |
++-------------------------------------------------------+--------------------------------+-------------------------------------------+
+==================================================
+Relation: P37_official_language
+Prompts:
+- 1.0000 Almost all residents of <ENT0> speak <ENT1> as their primary language .
+Harvested Tuples:
++----------------------------------------------------+-----------------------------------+-------------------------------------------+
+|                    Seed samples                    |           Ours (Top 20)           | Ours (Random samples over top 200 tuples) |
++----------------------------------------------------+-----------------------------------+-------------------------------------------+
+|              ['Macau', 'Portuguese']               |  ['Central Iceland', 'Icelandic'] |        ['Pennsylvania', 'Italian']        |
+| ['North American Free Trade Agreement', 'Spanish'] | ['Northern Iceland', 'Icelandic'] |        ['Northern Ontario', 'Cree']       |
+|               ['Kuusamo', 'Finnish']               |        ['Japan', 'English']       |             ['India', 'Hindi']            |
+|            ['East Timor', 'Portuguese']            |       ['Kosovo', 'English']       |      ['Puerto Santiago', 'Filipino']      |
+|              ['Janakkala', 'Finnish']              |        ['India', 'Bengali']       |           ['Denmark', 'Swedish']          |
+|                         \                          |     ['California', 'English']     |     ['northern bahamas', 'Indonesian']    |
+|                         \                          |      ['Singapore', 'English']     |     ['Vancouver', 'British Language']     |
+|                         \                          | ['northern afghanistan', 'Uzbek'] |         ['Singapore', 'Mandarin']         |
+|                         \                          |        ['India', 'English']       |            ['Iran', 'Persian']            |
+|                         \                          |         ['India', 'Hindi']        |            ['Zimbabwe', 'Zona']           |
+|                         \                          |       ['Sweden', 'Swedish']       |           ['Texas', 'Americana']          |
+|                         \                          |     ['Bangladesh', 'Bengali']     |             ['Israel', 'Shua']            |
+|                         \                          |  ['western afghanistan', 'Uzbek'] |             ['Hawaii', 'jai']             |
+|                         \                          |       ['Denmark', 'Danish']       |           ['Kosovo', 'Croatian']          |
+|                         \                          |    ['san francisco', 'signua']    |           ['Ethiopia', 'Greek']           |
+|                         \                          |    ['San Francisco', 'Latina']    |            ['India', 'English']           |
+|                         \                          |       ['Taiwan', 'Mandarin']      |          ['Pakistan', 'Persian']          |
+|                         \                          |      ['North East', 'Syriac']     |           ['Ukraine', 'Syriac']           |
+|                         \                          |    ['san francisco', 'latino']    |           ['Romania', 'Polish']           |
+|                         \                          |     ['California', 'Spanish']     |      ['central brazil', 'Brazilian']      |
++----------------------------------------------------+-----------------------------------+-------------------------------------------+
+==================================================
+Relation: P413_position_played_on_team__speciality
+Prompts:
+- 1.0000 <ENT0> plays in <ENT1> position .
+Harvested Tuples:
++-------------------------------------+----------------------------+-------------------------------------------+
+|             Seed samples            |       Ours (Top 20)        | Ours (Random samples over top 200 tuples) |
++-------------------------------------+----------------------------+-------------------------------------------+
+| ['Vincenzo Italiano', 'midfielder'] |    ['running', 'every']    |         ['football', 'pass rush']         |
+|    ['John Stofa', 'quarterback']    |  ['catcher', 'outfield']   |        ['football', 'pass rushing']       |
+|  ['Jason Campbell', 'quarterback']  |    ['catcher', 'third']    |            ['make', 'another']            |
+|  ['Bettina Wiegmann', 'midfielder'] |     ['make', 'every']      |          ['catchers', 'infield']          |
+|   ['Angelo Crowell', 'linebacker']  | ['tackle', 'pass rushing'] |          ['starter', 'outfield']          |
+|                  \                  |    ['player', 'every']     |             ['money', 'draft']            |
+|                  \                  |    ['power', 'another']    |            ['cunning', 'hole']            |
+|                  \                  |    ['power', 'single']     |            ['russell', 'third']           |
+|                  \                  |      ['box', 'every']      |            ['select', 'player']           |
+|                  \                  |    ['running', 'field']    |         ['kicker', 'Kick Return']         |
+|                  \                  | ['kicker', 'Kick Return']  |            ['captain', 'rover']           |
+|                  \                  |    ['pitch', 'cleanup']    |            ['often', 'utility']           |
+|                  \                  |   ['running', 'single']    |           ['small', 'subfield']           |
+|                  \                  |   ['player', 'Utility']    |            ['best', 'scoring']            |
+|                  \                  |    ['three', 'scoring']    |              ['box', 'field']             |
+|                  \                  |    ['running', 'slot']     |            ['player', 'field']            |
+|                  \                  |  ['smith', 'centerfield']  |           ['hockey', 'forward']           |
+|                  \                  |   ['player', 'another']    |           ['running', 'single']           |
+|                  \                  |    ['best', 'scoring']     |             ['make', 'every']             |
+|                  \                  |    ['player', 'field']     |          ['david finally', 'top']         |
++-------------------------------------+----------------------------+-------------------------------------------+
+==================================================
+Relation: P449_original_network
+Prompts:
+- 1.0000 The original airing of <ENT0> was on <ENT1> .
+Harvested Tuples:
++-------------------------------------+--------------------------------------+-------------------------------------------+
+|             Seed samples            |            Ours (Top 20)             | Ours (Random samples over top 200 tuples) |
++-------------------------------------+--------------------------------------+-------------------------------------------+
+|   ['The Imogene Coca Show', 'NBC']  |     ['live streams', 'Twitter']      |            ['Lies', 'Foxnews']            |
+|   ['The Ed Sullivan Show', 'CBS']   | ['Family Tree', 'Christmas Morning'] |              ['Arrow', 'Fox']             |
+| ['Arrested Development', 'Netflix'] |          ['Friends', 'Fox']          |          ['Usa Channel', 'Hulu']          |
+|    ['Great Performances', 'PBS']    |  ['Parenthood', 'History Channel']   |              ['Truth', 'cnn']             |
+|      ['My Friend Tony', 'NBC']      |         ['Survivor', 'Fox']          |          ['Minnesota', 'foxnews']         |
+|                  \                  |           ['Arrow', 'Fox']           |         ['Philadelphia', 'cbstv']         |
+|                  \                  |          ['Heroes', 'Fox']           |           ['Benghazi', 'msnbc']           |
+|                  \                  |        ['Elementary', 'Fox']         |         ['Home Video', 'maywatch']        |
+|                  \                  |      ['Live Stream', 'Twitter']      |             ['Chelsea', 'bbc']            |
+|                  \                  |  ['Thanksgiving', 'Christmas Eve']   |              ['jane', 'jean']             |
+|                  \                  |        ['episode', 'Friday']         |            ['Survivor', 'abc']            |
+|                  \                  |        ['episode', 'Sunday']         |      ['Gilmore Street', 'March Day']      |
+|                  \                  |       ['episode', 'Saturday']        |            ['Taken', 'May See']           |
+|                  \                  |        ['Outbreak', 'Friday']        |            ['Edmonton', 'cbc']            |
+|                  \                  |         ['Arrow', 'Sunday']          |          ['Hannibal', 'Foxflix']          |
+|                  \                  |        ['Outbreak', 'Sunday']        |       ['Ragnarok', 'Christmas Eve']       |
+|                  \                  |       ['episode', 'Thursday']        |             ['Things', 'cnn']             |
+|                  \                  |         ['Arrow', 'Friday']          |            ['Outbreak', 'nbc']            |
+|                  \                  |       ['Live Feed', 'Twitter']       |             ['Chelsea', 'Itv']            |
+|                  \                  |       ['Salvation', 'Sunday']        |             ['Royals', 'Itv']             |
++-------------------------------------+--------------------------------------+-------------------------------------------+
+==================================================
+Relation: P47_shares_border_with
+Prompts:
+- 1.0000 The city of <ENT0> is located on the border of <ENT1> .
+Harvested Tuples:
++-----------------------------------+---------------------------------+-------------------------------------------+
+|            Seed samples           |          Ours (Top 20)          | Ours (Random samples over top 200 tuples) |
++-----------------------------------+---------------------------------+-------------------------------------------+
+|        ['Iowa', 'Illinois']       |  ['San Francisco', 'San Diego'] |             ['Oslo', 'Italy']             |
+| ['Baja California', 'California'] |  ['San Francisco', 'San Jose']  |           ['Toronto', 'Sweden']           |
+|         ['Callao', 'Lima']        | ['El Salvador', 'Buenos Aires'] |          ['Marca', 'Costa Rica']          |
+|        ['Oregon', 'Idaho']        |       ['Warsaw', 'Poland']      |        ['Gibraltar', 'Switzerland']       |
+|  ['Saar Protectorate', 'Germany'] |     ['Budapest', 'Hungary']     |             ['Seoul', 'Syria']            |
+|                 \                 |      ['Prague', 'Hungary']      |             ['Aral', 'Sindh']             |
+|                 \                 |      ['Hamburg', 'Germany']     |           ['Moscow', 'Mongolia']          |
+|                 \                 |        ['Lund', 'Sweden']       |         ['Gibraltar', 'Scotland']         |
+|                 \                 |     ['Helsinki', 'Finland']     |            ['Seoul', 'France']            |
+|                 \                 |       ['Prague', 'Poland']      |          ['Medina', 'Venezuela']          |
+|                 \                 |     ['Stockholm', 'Sweden']     |          ['Salka', 'Uzbekistan']          |
+|                 \                 |       ['Lund', 'Finland']       |          ['Budapest', 'Romania']          |
+|                 \                 |        ['Osaka', 'Japan']       |            ['Kosovo', 'Serbia']           |
+|                 \                 |      ['Prague', 'Romania']      |            ['Karachi', 'Iran']            |
+|                 \                 |      ['Barcelona', 'Spain']     |             ['Tokyo', 'Japan']            |
+|                 \                 |      ['Valencia', 'Spain']      |            ['Moscow', 'Turkey']           |
+|                 \                 |      ['le bay', 'Saint Le']     |           ['Barra', 'Paraguay']           |
+|                 \                 |      ['Gibraltar', 'Spain']     |           ['Nyili', 'Tanzania']           |
+|                 \                 |      ['Santiago', 'Chile']      |            ['Moscow', 'Russia']           |
+|                 \                 |       ['Oslo', 'Finland']       |          ['Valencia', 'Bolivia']          |
++-----------------------------------+---------------------------------+-------------------------------------------+
+==================================================
+Relation: P138_named_after
+Prompts:
+- 1.0000 The name of the <ENT0> is derived from the city of <ENT1> .
+Harvested Tuples:
++-----------------------------------------------------+------------------------------------+-------------------------------------------+
+|                     Seed samples                    |           Ours (Top 20)            | Ours (Random samples over top 200 tuples) |
++-----------------------------------------------------+------------------------------------+-------------------------------------------+
+| ['Liberal Mid-America Regional Airport', 'Liberal'] | ['post office', 'North Greenland'] |         ['settlement', 'Hamburg']         |
+|        ['Reading railway station', 'Reading']       |     ['river delta', 'Orleans']     |           ['land', 'Amsterdam']           |
+|            ['Centocelle Airport', 'Rome']           |    ['entire country', 'Kabul']     |       ['fictional farm', 'Detroit']       |
+|           ['Norwich Cathedral', 'Trinity']          |        ['state', 'Athens']         |            ['town', 'Hamburg']            |
+|                   ['Mars', 'Mars']                  |      ['island', 'Copenhagen']      |             ['castle', 'Bath']            |
+|                          \                          |        ['province', 'Oslo']        |        ['school', 'St Petersburg']        |
+|                          \                          |        ['island', 'Malta']         |           ['site', 'Copenhagen']          |
+|                          \                          |      ['state', 'Alexandria']       |            ['suburb', 'London']           |
+|                          \                          |         ['town', 'Warsaw']         |          ['lake', 'Saint Peter']          |
+|                          \                          |         ['island', 'Oslo']         |            ['state', 'Athens']            |
+|                          \                          |        ['village', 'Lund']         |           ['township', 'London']          |
+|                          \                          |         ['state', 'Rome']          |            ['volcano', 'Mons']            |
+|                          \                          |       ['province', 'Prague']       |             ['park', 'London']            |
+|                          \                          |     ['province', 'Copenhagen']     |           ['village', 'Warsaw']           |
+|                          \                          |         ['state', 'Lyon']          |             ['state', 'Lyon']             |
+|                          \                          |       ['village', 'Warsaw']        |             ['castle', 'Troy']            |
+|                          \                          |        ['province', 'Lund']        |           ['valley', 'Santiago']          |
+|                          \                          |       ['island', 'Santiago']       |             ['park', 'Warsaw']            |
+|                          \                          |        ['island', 'Athens']        |           ['borough', 'Boston']           |
+|                          \                          |         ['town', 'Prague']         |          ['monastery', 'Corinth']         |
++-----------------------------------------------------+------------------------------------+-------------------------------------------+
+==================================================
+Relation: P364_original_language_of_film_or_TV_show
+Prompts:
+- 1.0000 <ENT0> is originally a <ENT1> language film .
+Harvested Tuples:
++----------------------------------+-----------------------------------+-------------------------------------------+
+|           Seed samples           |           Ours (Top 20)           | Ours (Random samples over top 200 tuples) |
++----------------------------------+-----------------------------------+-------------------------------------------+
+| ['Prairie Schooner', 'English']  |    ['san francisco', 'Mexican']   |            ['type', 'germane']            |
+|  ['The Fatal Eggs', 'Russian']   | ['san francisco', 'Southwestern'] |        ['death row', 'Vietnamese']        |
+|       ['Khamosh', 'Hindi']       |        ['shiva', 'Hebrew']        |             ['dvd', 'English']            |
+|     ['Rajnigandha', 'Hindi']     |  ['blacklisted', 'British Black'] |           ['panjab', 'Gujarati']          |
+| ['The Crimson Rivers', 'French'] |        ['shaq', 'Gujarati']       |         ['description', 'germane']        |
+|                \                 |        ['hala', 'Gujarati']       |           ['elizabeth', 'Welsh']          |
+|                \                 |        ['series', 'French']       |          ['mexico', 'Southican']          |
+|                \                 |       ['frost', 'Norwegian']      |              ['gong', 'Thai']             |
+|                \                 |       ['fang', 'Vietnamese']      |          ['germany', 'Germanian']         |
+|                \                 |        ['series', 'German']       |            ['movie', 'Spanish']           |
+|                \                 |       ['sanjay', 'Gujarati']      |           ['arablo', 'Filipino']          |
+|                \                 |       ['series', 'Spanish']       |       ['american', 'South American']      |
+|                \                 |       ['shaq', 'Pakistani']       |       ['american', 'South African']       |
+|                \                 |       ['series', 'Chinese']       |          ['arollo', 'spanishic']          |
+|                \                 |       ['series', 'Japanese']      |           ['winter', 'Swedish']           |
+|                \                 |       ['kang', 'Vietnamese']      |           ['panaji', 'Southali']          |
+|                \                 |        ['hala', 'Persian']        |          ['animation', 'Spanish']         |
+|                \                 |        ['pan', 'Germanic']        |            ['today', 'Bengali']           |
+|                \                 |     ['love language', 'sign']     |           ['english', 'Russian']          |
+|                \                 |        ['warbucks', 'Thai']       |             ['said', 'bengal']            |
++----------------------------------+-----------------------------------+-------------------------------------------+
+==================================================
+Relation: P463_member_of
+Prompts:
+- 1.0000 The <ENT0> is a member of <ENT1> and participates in international competitions .
+Harvested Tuples:
++---------------------------------------------+--------------------------------------------+-------------------------------------------+
+|                 Seed samples                |               Ours (Top 20)                | Ours (Random samples over top 200 tuples) |
++---------------------------------------------+--------------------------------------------+-------------------------------------------+
+|          ['Terry Balsamo', 'Cold']          |       ['country', 'European Union']        |        ['dictionary', 'Wikipedia']        |
+|             ['Germany', 'NATO']             |          ['country', 'euro zone']          |          ['organization', 'Fifa']         |
+|   ['Canadian Soccer Association', 'FIFA']   |      ['journal', 'Academic Journals']      |            ['winner', 'France']           |
+|     ['The Football Association', 'FIFA']    |         ['squadron', 'Air Force']          |          ['students', 'society']          |
+| ['Football Association of Finland', 'FIFA'] |        ['Philippines', 'World Cup']        |      ['group', 'International Clubs']     |
+|                      \                      |  ['group', 'International Organizations']  |            ['company', 'Nato']            |
+|                      \                      |        ['world champion', 'Omega']         |              ['team', 'Fifa']             |
+|                      \                      |         ['site', 'Google Search']          |          ['website', 'Wikipedia']         |
+|                      \                      |             ['team', 'Europe']             |        ['world champion', 'Omega']        |
+|                      \                      |        ['Netherlands', 'Euro Zone']        |            ['app', 'Facebook']            |
+|                      \                      |  ['University', 'European Associations']   |            ['blog', 'Facebook']           |
+|                      \                      |   ['university', 'European Association']   |          ['startup', 'Facebook']          |
+|                      \                      |            ['team', 'Germany']             |    ['australian eagle', 'conservation']   |
+|                      \                      |           ['squad', 'Euro Zone']           |              ['duo', 'Nike']              |
+|                      \                      |         ['squadron', 'Air Forces']         |        ['dutch bee', 'beekeepers']        |
+|                      \                      |              ['team', 'Fifa']              |          ['party', 'Parliament']          |
+|                      \                      |         ['film', 'Academy Films']          |        ['newspaper', 'Greenpeace']        |
+|                      \                      |    ['program', 'International Schools']    |        ['academy', 'Euro Academy']        |
+|                      \                      |    ['fraternity', 'several societies']     |         ['squadron', 'Air Force']         |
+|                      \                      | ['Nigerian Nation', 'Continental Leagues'] |            ['youth', 'society']           |
++---------------------------------------------+--------------------------------------------+-------------------------------------------+
+==================================================
+Relation: P101_field_of_work
+Prompts:
+- 1.0000 <ENT0> works in the field of <ENT1> .
+Harvested Tuples:
++--------------------------------------+--------------------------------------+--------------------------------------------+
+|             Seed samples             |            Ours (Top 20)             | Ours (Random samples over top 200 tuples)  |
++--------------------------------------+--------------------------------------+--------------------------------------------+
+|    ['Henri Brocard', 'geometry']     |   ['peter fox', 'animal welfare']    |         ['currently', 'robotics']          |
+|     ['Robert Bigelow', 'hotel']      |     ['smith', 'computer vision']     |           ['art', 'photography']           |
+|  ['Galileo Galilei', 'mathematics']  | ['published', 'Comparative History'] |             ['coding', 'Java']             |
+| ['Nicolaus Copernicus', 'astronomy'] |        ['best', 'philosophy']        |         ['kremlin', 'propaganda']          |
+|    ['Ewald Hering', 'physiology']    |        ['best', 'literature']        |        ['elizabeth el', 'humanism']        |
+|                  \                   |    ['cortex', 'Neural Networks']     |       ['smith', 'computer systems']        |
+|                  \                   |  ['general', 'Comparative History']  |  ['building', 'mechanical construction']   |
+|                  \                   |  ['mark twain', 'physical therapy']  | ['international', 'Nuclear Proliferation'] |
+|                  \                   |    ['smith', 'computer systems']     |          ['related', 'economics']          |
+|                  \                   |   ['michael taylor', 'technology']   |             ['german', 'law']              |
+|                  \                   |     ['eclipse', 'Solar Eclipse']     |       ['german', 'Computer Systems']       |
+|                  \                   | ['author', 'Computational Geometry'] |          ['economic', 'finance']           |
+|                  \                   |  ['shutterstock', 'photo editing']   |       ['coding', 'machine learning']       |
+|                  \                   |        ['best', 'sociology']         |     ['international', 'Nuclear Power']     |
+|                  \                   |        ['best', 'psychology']        |           ['two', 'philosophy']            |
+|                  \                   |    ['hacker', 'cyber espionage']     |  ['elizabeth fisher', 'fish management']   |
+|                  \                   | ['doctoral', 'biomedical research']  |         ['including', 'medicine']          |
+|                  \                   |           ['best', 'law']            |     ['shutterstock', 'visualization']      |
+|                  \                   |       ['recent', 'sociology']        |     ['john', 'Computational Geometry']     |
+|                  \                   |      ['graphic', 'Visual Arts']      |           ['data', 'computing']            |
++--------------------------------------+--------------------------------------+--------------------------------------------+
+==================================================
+Relation: P106_occupation
+Prompts:
+- 1.0000 By profession, <ENT0> is a <ENT1> .
+Harvested Tuples:
++---------------------------------------------------------+------------------------------------+-------------------------------------------+
+|                       Seed samples                      |           Ours (Top 20)            | Ours (Random samples over top 200 tuples) |
++---------------------------------------------------------+------------------------------------+-------------------------------------------+
+|               ['Emily Barton', 'novelist']              |    ['michael taylor', 'pastor']    |             ['Chen', 'doctor']            |
+|                ['Max Volmer', 'chemist']                |     ['mr phil', 'philologist']     |           ['Sal', 'pharmacist']           |
+|              ['Ernst Jaakson', 'diplomat']              |     ['karate', 'martial art']      |          ['James', 'journalist']          |
+|              ['Steve Swallow', 'composer']              |   ['Alex', 'Software Engineer']    |          ['Aaron', 'programmer']          |
+| ['John Ashburnham, 1st Baron Ashburnham', 'politician'] |      ['Reuters', 'news site']      |           ['Gordon', 'mechanic']          |
+|                            \                            |      ['Tom Cat', 'Cat Lover']      |          ['English', 'language']          |
+|                            \                            | ['Emily Woman', 'Social Activist'] |           ['Yang', 'programmer']          |
+|                            \                            |    ['karate', 'military sport']    |         ['shiki', 'martial arts']         |
+|                            \                            |    ['David', 'Graphic Artist']     |          ['Aaron', 'journalist']          |
+|                            \                            |     ['Mark', 'Graphic Artist']     |           ['Colin', 'geologist']          |
+|                            \                            |        ['John', 'teacher']         |    ['Csu', 'communications strategist']   |
+|                            \                            |    ['Rob', 'Financial Planner']    |           ['Jonathan', 'doctor']          |
+|                            \                            |    ['Aaron', 'Graphic Artist']     |             ['Daniel', 'chef']            |
+|                            \                            |         ['John', 'lawyer']         |         ['Paul Lang', 'Sportsman']        |
+|                            \                            |  ['author', 'Financial Analyst']   |          ['Andrew', 'programmer']         |
+|                            \                            |       ['Daniel', 'teacher']        |            ['James', 'lawyer']            |
+|                            \                            |        ['John', 'dentist']         |            ['Charles', 'chef']            |
+|                            \                            |     ['karate', 'martial arts']     |         ['Frank', 'photographer']         |
+|                            \                            |  ['Author', 'Financial Advisor']   |             ['Yang', 'lawyer']            |
+|                            \                            |        ['James', 'teacher']        |             ['joe kim', 'vet']            |
++---------------------------------------------------------+------------------------------------+-------------------------------------------+
+==================================================
+Relation: P527_has_part
+Prompts:
+- 1.0000 The chemical compound known as <ENT0> consists of <ENT1> atoms arranged in a six-sided ring .
+Harvested Tuples:
++-----------------------------------+--------------------------------+-------------------------------------------+
+|            Seed samples           |         Ours (Top 20)          | Ours (Random samples over top 200 tuples) |
++-----------------------------------+--------------------------------+-------------------------------------------+
+|       ['adenine', 'carbon']       |   ['diamond', 'six diamond']   |         ['diamond', 'six diamond']        |
+|     ['paraffin wax', 'carbon']    | ['serotonin', 'six serotonin'] |         ['fluoridine', 'fluorine']        |
+|    ['vinyl chloride', 'carbon']   |     ['hydrogen', 'carbon']     |          ['silicon', 'aluminum']          |
+|        ['egg white', 'egg']       |    ['orange', 'six orange']    |         ['polyethyl', 'polyether']        |
+| ['hydrochloric acid', 'hydrogen'] |     ['hydrogen', 'helium']     |             ['azite', 'azide']            |
+|                 \                 |     ['lithium', 'carbon']      |              ['fer', 'iron']              |
+|                 \                 |     ['chlorine', 'carbon']     |          ['polyide', 'polymeric']         |
+|                 \                 |    ['ammonia', 'nitrogen']     |             ['bond', 'three']             |
+|                 \                 |    ['lithium', 'potassium']    |         ['Glyc Acid', 'phosphate']        |
+|                 \                 |      ['hydrogen', 'four']      |           ['water', 'carbonate']          |
+|                 \                 | ['messenger', 'six messenger'] |         ['acetol', 'acetaldehyde']        |
+|                 \                 |     ['carbon', 'nitrogen']     |          ['phenoxide', 'phenol']          |
+|                 \                 |      ['hydrogen', 'two']       |         ['polyester', 'polyether']        |
+|                 \                 |    ['chlorine', 'nitrogen']    |        ['polyoxide', 'polycarbon']        |
+|                 \                 |    ['hydrogen', 'nitrogen']    |             ['ferin', 'iron']             |
+|                 \                 |    ['chlorine', 'fluoride']    |            ['sugar', 'glucose']           |
+|                 \                 |      ['chlorine', 'four']      |            ['polyol', 'polyyl']           |
+|                 \                 |      ['lithium', 'metal']      |          ['hydrogen', 'nitrogen']         |
+|                 \                 |     ['platinum', 'metal']      |             ['oxygen', 'four']            |
+|                 \                 |    ['sodium', 'potassium']     |          ['polyyl', 'polyhedral']         |
++-----------------------------------+--------------------------------+-------------------------------------------+
+==================================================
+Relation: P530_diplomatic_relation
+Prompts:
+- 1.0000 The government of <ENT0> has established and maintain diplomatic relations with the republic of <ENT1> .
+Harvested Tuples:
++-------------------------------------------+--------------------------------------------+-------------------------------------------+
+|                Seed samples               |               Ours (Top 20)                | Ours (Random samples over top 200 tuples) |
++-------------------------------------------+--------------------------------------------+-------------------------------------------+
+|         ['South Korea', 'Russia']         |      ['Puerto Rico', 'Buenos Aires']       |           ['Armenia', 'Belarus']          |
+|            ['France', 'Serbia']           |     ['South Vietnam', 'North Vietnam']     |             ['Belga', 'Alga']             |
+|           ['Cape Verde', 'Cuba']          | ['Northern Thailand', 'southern thailand'] |           ['Finland', 'Iceland']          |
+| ['United States of America', 'Argentina'] |       ['South Sudan', 'South East']        |          ['Austria', 'Slovenia']          |
+|          ['Australia', 'Belgium']         |   ['South Australia', 'north australia']   |        ['Azerbaijan', 'Kazakhstan']       |
+|                     \                     |     ['South Australia', 'North Aust']      |           ['Taiwan', 'Vietnam']           |
+|                     \                     |         ['Armenia', 'Azerbaijan']          |            ['Uruguay', 'Peru']            |
+|                     \                     |        ['Kazakhstan', 'Azerbaijan']        |            ['Japan', 'Taiwan']            |
+|                     \                     |       ['north iraq', 'north india']        |        ['Saudi Province', 'Yunnan']       |
+|                     \                     |          ['Lithuania', 'Estonia']          |          ['Bolivia', 'Colombia']          |
+|                     \                     |      ['Puerto Rico', 'Puerto Negro']       |        ['Belarusium', 'Belarusia']        |
+|                     \                     |          ['Lithuania', 'Latvia']           |     ['South Australia', 'North Aust']     |
+|                     \                     |           ['Armenia', 'Georgia']           |        ['Saint Chile', 'Santiago']        |
+|                     \                     |           ['Ukraine', 'Georgia']           |            ['China', 'Romania']           |
+|                     \                     |            ['Israel', 'Cyprus']            |         ['Mongolia', 'Macedonia']         |
+|                     \                     |         ['Azerbaijan', 'Georgia']          |           ['Kosovo', 'Croatia']           |
+|                     \                     |         ['Kazakhstan', 'Belarus']          |      ['Brune Province', 'Mauritania']     |
+|                     \                     |           ['China', 'Mongolia']            |            ['France', 'Spain']            |
+|                     \                     |            ['China', 'Taiwan']             |         ['Indonesia', 'Malaysia']         |
+|                     \                     |         ['Kazakhstan', 'Georgia']          |           ['Norway', 'Denmark']           |
++-------------------------------------------+--------------------------------------------+-------------------------------------------+
+==================================================
+Relation: P176_manufacturer
+Prompts:
+- 1.0000 The <ENT0> is a car produced by the <ENT1> motor company .
+Harvested Tuples:
++----------------------------+-------------------------------------+-------------------------------------------+
+|        Seed samples        |            Ours (Top 20)            | Ours (Random samples over top 200 tuples) |
++----------------------------+-------------------------------------+-------------------------------------------+
+| ['Nissan 180SX', 'Nissan'] |   ['Honda Civic', 'Honda Compact']  |           ['Grand Gt', 'Ducati']          |
+|   ['Fiat 4 HP', 'Fiat']    |  ['Honda Civic', 'Honda Electric']  |             ['Mira', 'Mirca']             |
+| ['Alpine A108', 'Renault'] |     ['Honda Vi', 'Honda Diesel']    |   ['Chevrolet Golf', 'Chevrolet Racing']  |
+|  ['Lancia Gamma', 'Fiat']  | ['Porsche Wagon', 'Porsche Racing'] |            ['Orion', 'Corbach']           |
+|   ['Nokia N8', 'Nokia']    |        ['Renault', 'French']        |             ['kate', 'Karai']             |
+|             \              |          ['Kia', 'Korean']          |             ['Enrad', 'Enrod']            |
+|             \              |        ['Nissan', 'Japanese']       |            ['Nissan', 'French']           |
+|             \              |        ['example', 'French']        |             ['Katsu', 'Kawai']            |
+|             \              |        ['example', 'Italian']       |             ['Mira', 'Mirza']             |
+|             \              |        ['example', 'German']        |         ['Land Car', 'Land Road']         |
+|             \              |         ['model', 'Italian']        |             ['Koda', 'Karai']             |
+|             \              |        ['Tempest', 'British']       |            ['Arrow', 'British']           |
+|             \              |        ['example', 'British']       |            ['mini', 'Mercedes']           |
+|             \              |         ['model', 'French']         |             ['kyu', 'Hanjin']             |
+|             \              |         ['example', 'Fiat']         |             ['Kona', 'Karino']            |
+|             \              |         ['Arrow', 'British']        |              ['kar', 'Kalar']             |
+|             \              |         ['model', 'German']         |              ['Leon', 'León']             |
+|             \              |        ['Mi Car', 'Mi Auto']        |         ['Volkswagen', 'Austrian']        |
+|             \              |       ['Eclipse', 'Japanese']       |              ['Zara', 'Izra']             |
+|             \              |          ['model', 'Fiat']          |      ['Honda Civic', 'Honda Compact']     |
++----------------------------+-------------------------------------+-------------------------------------------+
+==================================================
+Relation: P27_country_of_citizenship
+Prompts:
+- 1.0000 <ENT0> was born in <ENT1> and thus is a spanish citizen .
+Harvested Tuples:
++----------------------------------+------------------------------+-------------------------------------------+
+|           Seed samples           |        Ours (Top 20)         | Ours (Random samples over top 200 tuples) |
++----------------------------------+------------------------------+-------------------------------------------+
+| ['Maria Wetterstrand', 'Sweden'] | ['hernandez', 'Costa Rica']  |            ['saladin', 'Syria']           |
+|     ['Mel Charles', 'Wales']     |    ['hernandez', 'Cuba']     |         ['jonathan', 'Singapore']         |
+| ['Brenda Asnicar', 'Argentina']  |     ['lopez', 'Ecuador']     |           ['aaron', 'americano']          |
+|    ['Sachimi Iwao', 'Japan']     |     ['gomez', 'Ecuador']     |           ['mario', 'americano']          |
+|   ['Thomas Ong', 'Singapore']    |     ['daniel', 'Spain']      |            ['maria', 'Brazil']            |
+|                \                 |    ['alexander', 'Spain']    |             ['peter', 'Spain']            |
+|                \                 |   ['alexander', 'Sweden']    |             ['mir', 'Finland']            |
+|                \                 |   ['daniel', 'Argentina']    |            ['martini', 'Italy']           |
+|                \                 |      ['david', 'Spain']      |            ['sein', 'brazilia']           |
+|                \                 |      ['peter', 'Spain']      |          ['hansen', 'Copenhagen']         |
+|                \                 |     ['michael', 'Spain']     |           ['anna', 'americanus']          |
+|                \                 |     ['david', 'Sweden']      |            ['paulino', 'gina']            |
+|                \                 |     ['peter', 'Sweden']      |             ['david', 'Spain']            |
+|                \                 |     ['peter', 'Denmark']     |            ['juliu', 'Romania']           |
+|                \                 |   ['hansen', 'Copenhagen']   |           ['ukraine', 'Latvia']           |
+|                \                 | ['el hernandez', 'Santiago'] |             ['steven', 'gmx']             |
+|                \                 |    ['peter', 'Argentina']    |           ['anna', 'spainland']           |
+|                \                 |     ['daniel', 'Sweden']     |          ['jensen', 'Stockholm']          |
+|                \                 |  ['alexander', 'Argentina']  |           ['carlón', 'Santiago']          |
+|                \                 |    ['david', 'Argentina']    |             ['salazar', 'gio']            |
++----------------------------------+------------------------------+-------------------------------------------+
+==================================================
+Relation: P407_language_of_work_or_name
+Prompts:
+- 1.0000 The lyrics to "<ENT0>" are in <ENT1> .
+Harvested Tuples:
++--------------------------------------------+-----------------------+-------------------------------------------+
+|                Seed samples                |     Ours (Top 20)     | Ours (Random samples over top 200 tuples) |
++--------------------------------------------+-----------------------+-------------------------------------------+
+| ['Black Holes and Revelations', 'English'] |  ['Home', 'English']  |          ['Changes', 'brackets']          |
+|      ['The Eternal Idol', 'English']       |  ['Hello', 'English'] |            ['Stay', 'italics']            |
+|       ['Coup de Torchon', 'French']        |   ['Home', 'German']  |          ['Mexico', 'Portuguese']         |
+|     ['A Marriage Proposal', 'Russian']     |    ['Home', 'bold']   |            ['Baby', 'Japanese']           |
+|        ['Oliver Twist', 'English']         |  ['Hello', 'German']  |            ['Help', 'Spanish']            |
+|                     \                      |  ['Home', 'Italian']  |          ['Marco', 'Portuguese']          |
+|                     \                      |   ['Hello', 'bold']   |             ['Fire', 'German']            |
+|                     \                      |  ['Hello', 'Italian'] |           ['Joshua', 'Hebrewic']          |
+|                     \                      |  ['Love', 'English']  |            ['Jump', 'Japanese']           |
+|                     \                      |  ['Home', 'Spanish']  |          ['Martin', 'Italianic']          |
+|                     \                      | ['Hello', 'Japanese'] |             ['Love', 'German']            |
+|                     \                      |    ['Love', 'bold']   |            ['Hello', 'German']            |
+|                     \                      |   ['Love', 'German']  |           ['Tomorrow', 'italic']          |
+|                     \                      |  ['Baby', 'English']  |            ['Hero', 'italics']            |
+|                     \                      |  ['Fire', 'English']  |         ['Arizona', 'Portuguese']         |
+|                     \                      |  ['Love', 'Italian']  |            ['Sarah', 'Russian']           |
+|                     \                      |  ['Jump', 'italics']  |             ['Iowa', 'Polish']            |
+|                     \                      |  ['Help', 'italics']  |            ['Ohio', 'Chinese']            |
+|                     \                      |   ['Fire', 'German']  |            ['Ciao', 'Chinese']            |
+|                     \                      |  ['Stay', 'italics']  |           ['Luna', 'spanishic']           |
++--------------------------------------------+-----------------------+-------------------------------------------+
+==================================================
+Relation: P30_continent
+Prompts:
+- 1.0000 The <ENT0> is located in the southernmost part of the arabian sea, on the coast of <ENT1> .
+Harvested Tuples:
++-------------------------------------+--------------------------------------+-------------------------------------------+
+|             Seed samples            |            Ours (Top 20)             | Ours (Random samples over top 200 tuples) |
++-------------------------------------+--------------------------------------+-------------------------------------------+
+|       ['Turgai River', 'Asia']      |         ['island', 'Africa']         |       ['volcanic islands', 'Nevara']      |
+|   ['Achaean Range', 'Antarctica']   |       ['island', 'Madagascar']       |        ['antarctic sea', 'Alaska']        |
+|    ['Hammer Point', 'Antarctica']   |     ['Arctic Region', 'Siberia']     |           ['capeau', 'Corsica']           |
+| ['Enterprise Island', 'Antarctica'] |        ['island', 'Iceland']         |         ['African Tip', 'Senegal']        |
+|   ['Reeves Glacier', 'Antarctica']  |         ['island', 'Brazil']         |        ['continent', 'North Pole']        |
+|                  \                  |         ['island', 'Chile']          |             ['Seva', 'Nevina']            |
+|                  \                  |     ['continent', 'North Pole']      |          ['submarine', 'Romania']         |
+|                  \                  |          ['site', 'Africa']          |         ['sanctuary', 'Mauritius']        |
+|                  \                  |          ['site', 'Libya']           |             ['ice', 'Russia']             |
+|                  \                  |        ['site', 'Madagascar']        |           ['village', 'Morocco']          |
+|                  \                  | ['Ross Basin', 'western hemisphere'] |           ['bay', 'Madagascar']           |
+|                  \                  |          ['moon', 'Africa']          |         ['continent', 'Australia']        |
+|                  \                  |          ['site', 'Chile']           |            ['village', 'Libya']           |
+|                  \                  |          ['city', 'Libya']           |             ['port', 'Malta']             |
+|                  \                  |          ['site', 'Brazil']          |        ['polar glacier', 'Siberia']       |
+|                  \                  |          ['city', 'Sicily']          |             ['bay', 'Arctica']            |
+|                  \                  |          ['city', 'Africa']          |          ['lighthouse', 'Arbara']         |
+|                  \                  |     ['location', 'North Wales']      |           ['lake', 'North Pole']          |
+|                  \                  |         ['volcano', 'Chile']         |           ['species', 'Ecuador']          |
+|                  \                  |         ['village', 'Libya']         |       ['greece', 'northern greece']       |
++-------------------------------------+--------------------------------------+-------------------------------------------+
+==================================================
+Relation: P178_developer
+Prompts:
+- 1.0000 The <ENT0> is a operating system developed by <ENT1> .
+Harvested Tuples:
++--------------------------------------------+--------------------------------------------+-------------------------------------------+
+|                Seed samples                |               Ours (Top 20)                | Ours (Random samples over top 200 tuples) |
++--------------------------------------------+--------------------------------------------+-------------------------------------------+
+| ['Transaction Processing Facility', 'IBM'] |           ['Linux', 'Microsoft']           |           ['radome', 'red hat']           |
+|   ['Microsoft Office 2000', 'Microsoft']   |  ['virtual machine', 'virtual operators']  |              ['xgnu', 'Xorg']             |
+|        ['Donkey Kong', 'Nintendo']         |          ['kernel', 'Microsoft']           |            ['rome', 'red hat']            |
+|         ['Mac OS X Lion', 'Apple']         |            ['Linux', 'Debian']             |          ['Foundation', 'Intel']          |
+|       ['Google Hangouts', 'Google']        |    ['Power Utility', 'Power Utilities']    |             ['Xenux', 'Xerox']            |
+|                     \                      |            ['kernel', 'Intel']             |           ['Stack', 'Openstack']          |
+|                     \                      | ['Administrator', 'System Administrator']  |           ['Diesel', 'Siemens']           |
+|                     \                      |           ['Unix', 'Microsoft']            |            ['Gnome', 'Mozilla']           |
+|                     \                      |        ['Foundation', 'Microsoft']         |        ['gnomeboot', 'gnomekernel']       |
+|                     \                      |            ['Linux', 'Google']             |             ['Cake', 'Ubuntu']            |
+|                     \                      |        ['virtual world', 'Windows']        |            ['Gnu', 'Microsoft']           |
+|                     \                      |          ['Foundation', 'Google']          |              ['Rust', 'Kde']              |
+|                     \                      |           ['Net', 'Open Source']           |            ['init', 'systemd']            |
+|                     \                      |             ['Unix', 'Apple']              |          ['Solar System', 'Nasa']         |
+|                     \                      | ['Plasma Software', 'Plasma Researchers']  |              ['Xvar', 'Linx']             |
+|                     \                      |    ['Plasma Software', 'Plasma Group']     |        ['Solar Platform', 'Tesla']        |
+|                     \                      |             ['Unix', 'Google']             |        ['Powertool', 'Power Tools']       |
+|                     \                      | ['Administrator', 'System Administrators'] |           ['wlinux', 'wkernel']           |
+|                     \                      |            ['Fedora', 'Ubuntu']            |        ['Open Browser', 'Firefox']        |
+|                     \                      |          ['Foundation', 'Intel']           |           ['Netbox', 'Netscape']          |
++--------------------------------------------+--------------------------------------------+-------------------------------------------+
+==================================================
+Relation: P1376_capital_of
+Prompts:
+- 1.0000 <ENT0> is the capital city of <ENT1> and is by far the largest city in the country .
+Harvested Tuples:
++-----------------------------+----------------------------------+-------------------------------------------+
+|         Seed samples        |          Ours (Top 20)           | Ours (Random samples over top 200 tuples) |
++-----------------------------+----------------------------------+-------------------------------------------+
+|   ['Dhaka', 'Bangladesh']   | ['san francisco', 'Puerto Rico'] |          ['manual', 'Nicaragua']          |
+|   ['Monrovia', 'Liberia']   |     ['san jose', 'San José']     |              ['kuru', 'Kyun']             |
+|  ['Brisbane', 'Queensland'] |      ['toronto', 'Canada']       |             ['ahifa', 'Haifa']            |
+| ['Hartford', 'Connecticut'] |      ['london', 'England']       |             ['jiji', 'Fujiji']            |
+|   ['Arlon', 'Luxembourg']   |      ['london', 'Britain']       |              ['poka', 'Koka']             |
+|              \              |      ['toronto', 'Ontario']      |         ['guano', 'Buenos Aires']         |
+|              \              |     ['chicago', 'Illinois']      |           ['detroit', 'Canada']           |
+|              \              | ['philadelphia', 'Pennsylvania'] |       ['birra', 'Northern Somalia']       |
+|              \              |       ['houston', 'Texas']       |       ['ahawa', 'Japanese Republic']      |
+|              \              |    ['madurai', 'Tamil Nadu']     |        ['del salvador', 'Honduras']       |
+|              \              |     ['del paso', 'Uruguay']      |     ['montgomery', 'Maryland States']     |
+|              \              |     ['detroit', 'Michigan']      |         ['montgomery', 'Maryland']        |
+|              \              |   ['boston', 'Massachusetts']    |           ['goethe', 'Germania']          |
+|              \              |       ['dallas', 'Texas']        |         ['houston', 'California']         |
+|              \              |    ['washington', 'America']     |        ['gozu', 'central mongolia']       |
+|              \              |   ['delhi', 'Indian Country']    |             ['manua', 'Fiji']             |
+|              \              |  ['fife', 'Scottish Scotland']   |      ['berdeen', 'Scottish Scotland']     |
+|              \              |     ['liverpool', 'England']     |       ['lome', 'Italian Government']      |
+|              \              |      ['phoenix', 'Arizona']      |              ['lome', 'Rome']             |
+|              \              |     ['madhabi', 'Abu Dhabi']     |           ['montreal', 'Québec']          |
++-----------------------------+----------------------------------+-------------------------------------------+
+==================================================
+Relation: P131_located_in_the_administrative_territorial_entity
+Prompts:
+- 1.0000 The <ENT0> is located in <ENT1> .
+Harvested Tuples:
++----------------------------------------------------------+-------------------------------------+-------------------------------------------+
+|                       Seed samples                       |            Ours (Top 20)            | Ours (Random samples over top 200 tuples) |
++----------------------------------------------------------+-------------------------------------+-------------------------------------------+
+|                ['Lake Bluff', 'Illinois']                |     ['embassy', 'Kuala Lumpur']     |      ['lighthouse', 'approximately']      |
+| ['Massachusetts Bay Transportation Authority', 'Boston'] |  ['Canadian Parliament', 'Ottawa']  |           ['center', 'Honolulu']          |
+|          ['Lakeridge Health Oshawa', 'Ontario']          |      ['State Senate', 'Albany']     |       ['Post Office', 'Wilmington']       |
+|             ['Raft River Mountains', 'Utah']             |   ['State Senate', 'Springfield']   |          ['island', 'Antarctica']         |
+|              ['Little Bear River', 'Utah']               |       ['facility', 'San Jose']      |             ['base', 'Chile']             |
+|                            \                             |      ['company', 'Los Angeles']     |         ['municipality', 'Canada']        |
+|                            \                             |  ['headquarters', 'San Francisco']  |            ['park', 'Chicago']            |
+|                            \                             |    ['state senate', 'Sacramento']   |          ['office', 'Manhattan']          |
+|                            \                             |      ['web browser', 'Chrome']      |    ['Canadian Parliament', 'Montreal']    |
+|                            \                             |    ['consulate', 'Buenos Aires']    |             ['base', 'Alaska']            |
+|                            \                             |    ['facility', 'san francisco']    |         ['State Senate', 'Albany']        |
+|                            \                             |      ['building', 'North End']      | ['municipality', 'northern saskatchewan'] |
+|                            \                             | ['Canadian Parliament', 'Montreal'] |            ['campus', 'Athens']           |
+|                            \                             |       ['airport', 'Honolulu']       |           ['campus', 'Honolulu']          |
+|                            \                             |    ['nuclear power', 'Fukushima']   |          ['university', 'Tokyo']          |
+|                            \                             |     ['factory', 'San Francisco']    |      ['local shelter', 'Wilmington']      |
+|                            \                             |    ['National Stadium', 'Seoul']    |             ['site', 'Oregon']            |
+|                            \                             |   ['nuclear reactor', 'Fukushima']  |         ['nuclear test', 'Nevada']        |
+|                            \                             |    ['nearest highway', 'Quebec']    |            ['village', 'Italy']           |
+|                            \                             |  ['municipal council', 'Edmonton']  |        ['Observatory', 'Honolulu']        |
++----------------------------------------------------------+-------------------------------------+-------------------------------------------+
+==================================================
+Relation: P1412_languages_spoken,_written_or_signed
+Prompts:
+- 1.0000 Before <ENT0> learned english, he communicated in <ENT1> .
+Harvested Tuples:
++----------------------------------------+------------------------------+-------------------------------------------+
+|              Seed samples              |        Ours (Top 20)         | Ours (Random samples over top 200 tuples) |
++----------------------------------------+------------------------------+-------------------------------------------+
+|       ['Huangfu Mi', 'Chinese']        |  ['Roman', 'written word']   |             ['James', 'japan']            |
+| ['Giovanni Lindo Ferretti', 'Italian'] |     ['Hitler', 'German']     |            ['Singh', 'Bengali']           |
+|      ['Heikki Siren', 'Finnish']       |      ['Noah', 'Latin']       |            ['David', 'Chinese']           |
+|       ['Keren Peles', 'Hebrew']        |  ['Roman', 'written words']  |            ['Ahmed', 'Turkish']           |
+|      ['Aharon Zisling', 'Hebrew']      |      ['Max', 'Spanish']      |            ['Babloo', 'babbo']            |
+|                   \                    |     ['Frank', 'Spanish']     |              ['Sai', 'kina']              |
+|                   \                    |    ['Einstein', 'German']    |             ['Kamala', 'Kala']            |
+|                   \                    | ['Marcos', 'Sign Language']  |             ['Max', 'French']             |
+|                   \                    |  ['David', 'plain english']  |           ['Salman', 'Turkish']           |
+|                   \                    |   ['Einstein', 'Russian']    |            ['Frank', 'French']            |
+|                   \                    | ['Xavier', 'Sign Language']  |             ['Huang', 'Thai']             |
+|                   \                    |    ['Einstein', 'Latin']     |            ['Muhammad', 'Jawi']           |
+|                   \                    | ['Charles', 'Sign Language'] |           ['Karmin', 'Kurdish']           |
+|                   \                    |  ['Marco', 'Sign Language']  |           ['Hitler', 'Russian']           |
+|                   \                    |      ['Peter', 'Latin']      |            ['jonathan', 'Thai']           |
+|                   \                    |     ['Peter', 'Russian']     |           ['Huang', 'shorthand']          |
+|                   \                    |  ['Frank', 'plain english']  |           ['Ruby', 'plaintext']           |
+|                   \                    |      ['Max', 'Chinese']      |           ['Jonas', 'japanese']           |
+|                   \                    |      ['Max', 'Russian']      |           ['Sam', 'Vietnamese']           |
+|                   \                    |  ['Dylan', 'plain english']  |         ['Dylan', 'plain english']        |
++----------------------------------------+------------------------------+-------------------------------------------+
+==================================================
+Relation: P108_employer
+Prompts:
+- 1.0000 <ENT0> is an employee of the <ENT1> .
+Harvested Tuples:
++----------------------------------+--------------------------------------------+-------------------------------------------+
+|           Seed samples           |               Ours (Top 20)                | Ours (Random samples over top 200 tuples) |
++----------------------------------+--------------------------------------------+-------------------------------------------+
+|      ['Scott Mills', 'BBC']      | ['mark zuckerberg', 'venture capitalists'] |       ['jeremy lang', 'Philippines']      |
+|   ['Armando Iannucci', 'BBC']    |           ['person', 'company']            |         ['founder', 'tech giant']         |
+|      ['James Moir', 'BBC']       |            ['james', 'company']            |          ['smith', 'Corporation']         |
+|  ['John Fellows Akers', 'IBM']   |     ['charles cooper', 'free market']      |            ['paul', 'brewery']            |
+| ['Ward Cunningham', 'Microsoft'] |        ['david cooper', 'free web']        |          ['price', 'Corporation']         |
+|                \                 |          ['person', 'department']          |         ['matthew', 'United Org']         |
+|                \                 |         ['person', 'Corporation']          |        ['donald kelly', 'free web']       |
+|                \                 |            ['smith', 'company']            |           ['john', 'department']          |
+|                \                 |             ['person', 'firm']             |         ['person', 'Corporation']         |
+|                \                 |           ['paul', 'law school']           |          ['jessica', 'newsroom']          |
+|                \                 |          ['mac', 'mailing list']           |          ['mac', 'mailing list']          |
+|                \                 |      ['shakespeare', 'royal palace']       |             ['frank', 'bank']             |
+|                \                 |           ['wilson', 'company']            |            ['jane', 'library']            |
+|                \                 |        ['howard', 'Chicago Paper']         |             ['today', 'state']            |
+|                \                 |          ['mac', 'mailing lists']          |          ['writer', 'publisher']          |
+|                \                 |       ['anderson', 'Chicago Paper']        |             ['mayor', 'city']             |
+|                \                 |        ['russia', 'United States']         |           ['doctor', 'hospital']          |
+|                \                 |       ['anthony', 'Huffington Post']       |          ['edmonton', 'province']         |
+|                \                 |             ['james', 'firm']              |            ['david', 'agency']            |
+|                \                 |          ['wilson', 'university']          |     ['reuters', 'Thomson Foundation']     |
++----------------------------------+--------------------------------------------+-------------------------------------------+
+==================================================
+Relation: P136_genre
+Prompts:
+- 1.0000 <ENT0> is a renowned <ENT1> musician .
+Harvested Tuples:
++------------------------------+------------------------------+-------------------------------------------+
+|         Seed samples         |        Ours (Top 20)         | Ours (Random samples over top 200 tuples) |
++------------------------------+------------------------------+-------------------------------------------+
+|   ['Jack Parnell', 'jazz']   | ['donald trump', 'country']  |            ['marco', 'Italian']           |
+|  ['Garnett Brown', 'jazz']   | ['robert gould', 'British']  |           ['martin', 'Canadian']          |
+| ['Orphan Black', 'thriller'] |      ['james', 'jazz']       |             ['naz', 'Afghan']             |
+|   ['Steve Nieve', 'opera']   |   ['india', 'singer cum']    |           ['joshua', 'Nigerian']          |
+|    ['Dennis Rea', 'jazz']    |      ['james', 'rock']       |          ['howard', 'Australian']         |
+|              \               |       ['john', 'jazz']       |           ['steven', 'Swedish']           |
+|              \               |      ['james', 'folk']       |             ['yang', 'Korean']            |
+|              \               |     ['anderson', 'jazz']     |            ['islam', 'Arabic']            |
+|              \               |      ['david', 'jazz']       |           ['kim', 'South Asian']          |
+|              \               |   ['james', 'Australian']    |        ['robert gould', 'British']        |
+|              \               |   ['james', 'electronic']    |              ['kanye', 'rap']             |
+|              \               | ['robert kaufman', 'Jewish'] |        ['george python', 'Chilean']       |
+|              \               |    ['india', 'classical']    |           ['samsung', 'Korean']           |
+|              \               |      ['david', 'rock']       |          ['james', 'Australian']          |
+|              \               |    ['kim', 'South Asian']    |             ['dev', 'German']             |
+|              \               |       ['kanye', 'rap']       |              ['john', 'folk']             |
+|              \               |     ['khan', 'Iranian']      |            ['born', 'English']            |
+|              \               |   ['paul black', 'blues']    |           ['jones', 'American']           |
+|              \               |   ['david', 'electronic']    |           ['joe xx', 'British']           |
+|              \               |      ['david', 'folk']       |        ['christopher', 'Christian']       |
++------------------------------+------------------------------+-------------------------------------------+
+==================================================
+Relation: P17_country
+Prompts:
+- 1.0000 The <ENT0> is a sports complex located in <ENT1> .
+Harvested Tuples:
++------------------------------------------------------------+-----------------------------------+-------------------------------------------+
+|                        Seed samples                        |           Ours (Top 20)           | Ours (Random samples over top 200 tuples) |
++------------------------------------------------------------+-----------------------------------+-------------------------------------------+
+|      ['Federal Palace of Switzerland', 'Switzerland']      | ['Diamond Kings', 'Kuala Lumpur'] |           ['Empire', 'Shanghai']          |
+| ['2004 IAAF World Cross Country Championships', 'Belgium'] |    ['Oracle', 'San Francisco']    |     ['Wisconsin', 'Western Wisconsin']    |
+|                   ['Askola', 'Finland']                    |    ['Coliseum', 'Minneapolis']    |           ['Yards', 'Baltimore']          |
+|             ['Sanlih E-Television', 'Taiwan']              |      ['Coliseum', 'Atlanta']      |          ['Empire', 'south west']         |
+|      ['Chartered Professional Accountant', 'Canada']       |      ['Coliseum', 'Chicago']      |         ['Swamp', 'Jacksonville']         |
+|                             \                              |      ['Coliseum', 'downtown']     |           ['Dragon', 'Shanghai']          |
+|                             \                              |    ['Mirage', 'San Francisco']    |            ['Forum', 'Toronto']           |
+|                             \                              |      ['Ice Palace', 'Moscow']     |          ['Olympics', 'Toronto']          |
+|                             \                              |    ['Gauntlet', 'Los Angeles']    |             ['Dome', 'Athens']            |
+|                             \                              |    ['Coliseum', 'Philadelphia']   |           ['Oracle', 'Portland']          |
+|                             \                              |        ['Arena', 'Chicago']       |     ['American Cup', 'Oklahoma State']    |
+|                             \                              |        ['Stadium', 'Tokyo']       |         ['high bowl', 'Pasadena']         |
+|                             \                              |      ['Arena', 'Minneapolis']     |            ['Forum', 'London']            |
+|                             \                              |       ['Stadium', 'Athens']       |             ['Forum', 'Tokyo']            |
+|                             \                              | ['Baseball Grounds', 'Baltimore'] |          ['Olympic', 'Helsinki']          |
+|                             \                              |     ['Shark', 'San Francisco']    |          ['Coliseum', 'Atlanta']          |
+|                             \                              |       ['Park', 'Manhattan']       |           ['Broncos', 'Denver']           |
+|                             \                              |      ['Stadium', 'Singapore']     | ['Orange Complex', 'Orange Neighborhood'] |
+|                             \                              |    ['Battery', 'San Francisco']   |          ['Casino', 'Las Vegas']          |
+|                             \                              | ['American University', 'Austin'] |        ['Junction', 'Scarborough']        |
++------------------------------------------------------------+-----------------------------------+-------------------------------------------+
+==================================================
+Relation: P39_position_held
+Prompts:
+- 1.0000 <ENT1> <ENT0> is a member of the catholic clergy who serves as a senior official in the church .
+Harvested Tuples:
++------------------------------------+---------------------------+-------------------------------------------+
+|            Seed samples            |       Ours (Top 20)       | Ours (Random samples over top 200 tuples) |
++------------------------------------+---------------------------+-------------------------------------------+
+| ['Acacius of Caesarea', 'bishop']  |     ['Smith', 'john']     |             ['Zang', 'chang']             |
+|      ['Sylvester II', 'pope']      |     ['Smith', 'peter']    |              ['Rios', 'caul']             |
+|     ['Sheila Dixon', 'mayor']      |     ['Thomas', 'john']    |            ['Hester', 'hazel']            |
+|    ['John E. Hines', 'bishop']     |    ['Thomas', 'peter']    |              ['Lira', 'raul']             |
+| ['Liutprand of Cremona', 'bishop'] |    ['Smith', 'william']   |              ['Ziu', 'chun']              |
+|                 \                  |    ['Thomas', 'david']    |              ['Ghan', 'shai']             |
+|                 \                  |     ['Smith', 'mark']     |           ['Arada', 'francisco']          |
+|                 \                  |     ['man', 'another']    |              ['Niles', 'liz']             |
+|                 \                  |    ['Thomas', 'bishop']   |             ['Hwang', 'kang']             |
+|                 \                  |    ['Hickey', 'linda']    |              ['Gee', 'cory']              |
+|                 \                  |     ['Hahn', 'jenny']     |              ['Nabe', 'nana']             |
+|                 \                  |      ['Lai', 'chung']     |             ['Gee', 'citizen']            |
+|                 \                  |   ['priest', 'another']   |              ['Rames', 'liz']             |
+|                 \                  | ['alia', 'charles inter'] |             ['Ciman', 'jill']             |
+|                 \                  |   ['Haney', 'christina']  |              ['Rie', 'cathy']             |
+|                 \                  |     ['Fau', 'le bon']     |               ['Zou', 'zhu']              |
+|                 \                  |    ['Hirsch', 'jenny']    |             ['Arkin', 'erik']             |
+|                 \                  |      ['Lai', 'chang']     |             ['Hales', 'jorge']            |
+|                 \                  |     ['Rama', 'nandan']    |             ['Arkin', 'evan']             |
+|                 \                  |    ['bishop', 'every']    |             ['Aruna', 'pablo']            |
++------------------------------------+---------------------------+-------------------------------------------+
+==================================================
+Relation: P264_record_label
+Prompts:
+- 1.0000 <ENT0> is a country music artist who is signed to the <ENT1> records label .
+Harvested Tuples:
++--------------------------------------------+------------------------+-------------------------------------------+
+|                Seed samples                |     Ours (Top 20)      | Ours (Random samples over top 200 tuples) |
++--------------------------------------------+------------------------+-------------------------------------------+
+|      ['The Famous Flames', 'Federal']      |   ['hunter', 'Epic']   |             ['joshua', 'Jive']            |
+| ['Billy Ward and His Dominoes', 'Federal'] | ['prince', 'Capitol']  |           ['hunter', 'Columbia']          |
+|          ['Buddy Holly', 'Coral']          | ['prince', 'Atlantic'] |         ['nick russell', 'rattle']        |
+|        ['Hank Ballard', 'Federal']         |   ['scott', 'Epic']    |             ['michael', 'kai']            |
+|        ['Harry James', 'Brunswick']        |   ['kelly', 'Epic']    |            ['grass', 'Jockey']            |
+|                     \                      | ['prince', 'Columbia'] |             ['kelly', 'Epic']             |
+|                     \                      |   ['taylor', 'Epic']   |            ['williams', 'Kia']            |
+|                     \                      | ['hunter', 'Capitol']  |           ['justin', 'jupiter']           |
+|                     \                      | ['taylor', 'Capitol']  |           ['mike brown', 'free']          |
+|                     \                      |   ['prince', 'Epic']   |         ['charlie david', 'kris']         |
+|                     \                      |  ['scott', 'Capitol']  |             ['jefford', 'Jax']            |
+|                     \                      |  ['kelly', 'Capitol']  |           ['alexander', 'elex']           |
+|                     \                      | ['taylor', 'Atlantic'] |            ['john', 'ethereal']           |
+|                     \                      | ['taylor', 'Columbia'] |             ['prince', 'Epic']            |
+|                     \                      | ['hunter', 'Columbia'] |         ['jonathan lord', 'jorge']        |
+|                     \                      | ['hunter', 'Atlantic'] |          ['thompson', 'ethereal']         |
+|                     \                      | ['scott', 'Columbia']  |           ['anderson', 'Kraft']           |
+|                     \                      | ['kelly', 'Atlantic']  |              ['josh', 'Jazz']             |
+|                     \                      | ['scott', 'Atlantic']  |           ['hunter', 'Capitol']           |
+|                     \                      | ['kelly', 'Columbia']  |           ['may', 'Independent']          |
++--------------------------------------------+------------------------+-------------------------------------------+
+==================================================
+Relation: P276_location
+Prompts:
+- 1.0000 The <ENT0> is a concert and events venue located in the city of <ENT1>, england .
+Harvested Tuples:
++---------------------------------------+-----------------------------------+-------------------------------------------+
+|              Seed samples             |           Ours (Top 20)           | Ours (Random samples over top 200 tuples) |
++---------------------------------------+-----------------------------------+-------------------------------------------+
+|      ['Indie Memphis', 'Memphis']     |       ['Arena', 'Melbourne']      |           ['Rocks', 'Liverpool']          |
+|    ['Edmonton Journal', 'Edmonton']   |     ['Pavilion', 'Melbourne']     |              ['Glen', 'gens']             |
+|  ['Montreal Convention', 'Montreal']  |       ['Arena', 'Liverpool']      |           ['Rock', 'Liverpool']           |
+| ['Flying Pig Marathon', 'Cincinnati'] | ['River Nightclub', 'river city'] |            ['House', 'lincoln']           |
+|    ['Basilica Cistern', 'Istanbul']   |      ['Music Bar', 'houston']     |            ['Star', 'colville']           |
+|                   \                   |       ['Rocks', 'Liverpool']      |        ['Sun Theatre', 'sunshine']        |
+|                   \                   |       ['Forum', 'Melbourne']      |          ['Tempest', 'colander']          |
+|                   \                   |        ['Arena', 'Glasgow']       |          ['Pavilion', 'downtown']         |
+|                   \                   |       ['Arena', 'downtown']       |            ['Pier', 'Portland']           |
+|                   \                   |       ['Hall', 'Melbourne']       |              ['Plaza', 'nsw']             |
+|                   \                   |        ['Arena', 'central']       |         ['Rockground', 'rockford']        |
+|                   \                   |     ['Jazz Museum', 'houston']    |             ['Hub', 'lincoln']            |
+|                   \                   |     ['Pavilion', 'Liverpool']     |             ['Academy', 'bay']            |
+|                   \                   |        ['Forum', 'central']       |             ['Castle', 'town']            |
+|                   \                   |     ['Pavilion', 'Amsterdam']     |           ['Parklands', 'parks']          |
+|                   \                   |        ['Rocks', 'Sydney']        |           ['Vortex', 'Orlando']           |
+|                   \                   |         ['Ritz', 'robert']        |             ['Cavern', 'nsw']             |
+|                   \                   |      ['Pavilion', 'Glasgow']      |           ['Forge', 'Newcastle']          |
+|                   \                   |         ['Ritz', 'robin']         |           ['Grove', 'westport']           |
+|                   \                   |      ['Masquerade', 'london']     |         ['Rockhouse', 'rockford']         |
++---------------------------------------+-----------------------------------+-------------------------------------------+
+==================================================
+Relation: P937_work_location
+Prompts:
+- 1.0000 <ENT0> is a former politician from <ENT1> who has also worked in the country in the past .
+Harvested Tuples:
++-----------------------------------------+-------------------------------+-------------------------------------------+
+|               Seed samples              |         Ours (Top 20)         | Ours (Random samples over top 200 tuples) |
++-----------------------------------------+-------------------------------+-------------------------------------------+
+|       ['Ture Nerman', 'Stockholm']      |     ['le blanc', 'Quebec']    |            ['joshua', 'Zambia']           |
+|       ['David Salomons', 'London']      |     ['le blanc', 'Paris']     |           ['james', 'Malaysia']           |
+|      ['Javier de Burgos', 'Madrid']     | ['fernandez', 'Buenos Aires'] |          ['msamy', 'Tamil Nadu']          |
+|       ['Aldus Manutius', 'Venice']      |    ['lopez', 'Puerto Rico']   |           ['fernandez', 'Cuba']           |
+| ['Richard Brinsley Sheridan', 'London'] |  ['salazar', 'San Francisco'] |            ['tan', 'Bengaluru']           |
+|                    \                    |   ['mohammad', 'Abu Dhabi']   |           ['salva', 'Bulgaria']           |
+|                    \                    |    ['sharma', 'Karnataka']    |              ['tan', 'Nepal']             |
+|                    \                    |   ['gupta', 'Uttar Pradesh']  |         ['mohammad', 'Abu Dhabi']         |
+|                    \                    |   ['ramirez', 'Puerto Rico']  |          ['kelly', 'South East']          |
+|                    \                    |    ['abrahim', 'Abu Dhabi']   |             ['vito', 'Mexico']            |
+|                    \                    |     ['patel', 'Karnataka']    |          ['abrahim', 'Abu Dhabi']         |
+|                    \                    |   ['javier', 'Puerto Rico']   |           ['paul', 'Bengaluru']           |
+|                    \                    |     ['smith', 'Australia']    |            ['wilson', 'India']            |
+|                    \                    |     ['guru', 'Sri Lanka']     |           ['james', 'Singapore']          |
+|                    \                    |   ['pablo', 'Buenos Aires']   |            ['zuma', 'Ethiopia']           |
+|                    \                    |      ['smith', 'Canada']      |           ['tan', 'Bangladesh']           |
+|                    \                    |     ['ryan', 'South Asia']    |         ['salwan', 'Afghanistan']         |
+|                    \                    |    ['chavez', 'Venezuela']    |            ['pak', 'Sri Lanka']           |
+|                    \                    |      ['smith', 'Britain']     |            ['young', 'Taiwan']            |
+|                    \                    |        ['roy', 'India']       |            ['yang', 'Myanmar']            |
++-----------------------------------------+-------------------------------+-------------------------------------------+
+==================================================
+Relation: P140_religion
+Prompts:
+- 1.0000 <ENT0> was a member of the nation of <ENT1>, a religious organization that promotes the worship of allah .
+Harvested Tuples:
++-----------------------------------------------+-----------------------------------+-------------------------------------------+
+|                  Seed samples                 |           Ours (Top 20)           | Ours (Random samples over top 200 tuples) |
++-----------------------------------------------+-----------------------------------+-------------------------------------------+
+|       ['Sumayyah bint Khayyat', 'Islam']      |        ['al qaeda', 'Iraq']       |         ['christangel', 'angels']         |
+|     ['Sultan Satuq Bughra Khan', 'Islam']     |        ['jesus', 'Israel']        |            ['godiva', 'Torah']            |
+| ['Nawabs of Bengal and Murshidabad', 'Islam'] | ['president lincoln', 'churches'] |          ['mohammad', 'Mohammed']         |
+|       ['Bade Ghulam Ali Khan', 'Islam']       |       ['al qaeda', 'Hamas']       |         ['eisenhower', 'atheists']        |
+| ['Wesleyan Methodist Church', 'Christianity'] |          ['jesus', 'God']         |             ['lenin', 'Odin']             |
+|                       \                       |        ['hussein', 'Iran']        |           ['alberto', 'Brazil']           |
+|                       \                       |        ['trump', 'Israel']        |            ['arthur', 'Asgard']           |
+|                       \                       |         ['jesus', 'Jews']         |            ['wanda', 'Uganda']            |
+|                       \                       |         ['hashi', 'Mahdi']        |           ['godraham', 'Akiva']           |
+|                       \                       |  ['president lincoln', 'blacks']  |             ['sarah', 'women']            |
+|                       \                       |    ['president morsi', 'Egypt']   |            ['george', 'Asgard']           |
+|                       \                       |        ['smith', 'Israel']        |            ['aladdin', 'Akha']            |
+|                       \                       |        ['obama', 'Israel']        |            ['godless', 'Satan']           |
+|                       \                       |         ['obama', 'Islam']        |        ['kosher', 'Jewish Origin']        |
+|                       \                       |          ['trump', 'God']         |          ['elizabeth', 'faiths']          |
+|                       \                       |         ['smith', 'Islam']        |          ['christine', 'angels']          |
+|                       \                       |         ['trump', 'Islam']        |            ['trump', 'Muslims']           |
+|                       \                       |          ['obama', 'God']         |           ['martin', 'Muslims']           |
+|                       \                       |          ['smith', 'God']         |           ['thompson', 'Christ']          |
+|                       \                       |       ['ab ahmad', 'Sharia']      |            ['aladdin', 'Akbar']           |
++-----------------------------------------------+-----------------------------------+-------------------------------------------+
+==================================================
+Relation: P1303_instrument
+Prompts:
+- 1.0000 <ENT0> was a musician who is particularly known for his skill on the <ENT1> .
+Harvested Tuples:
++-------------------------------------+------------------------------+-------------------------------------------+
+|             Seed samples            |        Ours (Top 20)         | Ours (Random samples over top 200 tuples) |
++-------------------------------------+------------------------------+-------------------------------------------+
+|       ['Otis Spann', 'piano']       | ['williams', 'drum machine'] |         ['williams', 'drum roll']         |
+|     ['Julian Lennon', 'guitar']     |  ['williams', 'drum roll']   |        ['williams', 'drum machine']       |
+|  ['Scott Klopfenstein', 'trumpet']  |    ['thompson', 'guitar']    |         ['nintendo', 'drumstick']         |
+| ['Tomaso Antonio Vitali', 'violin'] |    ['anderson', 'guitar']    |          ['tolkien', 'mandolin']          |
+|       ['Ma Sicong', 'violin']       |      ['lee', 'guitar']       |        ['shakespeare', 'harmonica']       |
+|                  \                  |     ['howard', 'guitar']     |      ['richard gilbert', 'windpipe']      |
+|                  \                  |   ['wilson', 'drum roll']    |           ['anderson', 'drums']           |
+|                  \                  |  ['wilson', 'drum machine']  |            ['davis', 'trumpet']           |
+|                  \                  |   ['prince', 'saxophone']    |            ['howard', 'guitar']           |
+|                  \                  |    ['thompson', 'drums']     |             ['lee', 'guitar']             |
+|                  \                  |  ['prince', 'drum machine']  |           ['michael ha', 'bass']          |
+|                  \                  |  ['williams', 'saxophone']   |          ['roy', 'synthesophone']         |
+|                  \                  |       ['lee', 'drums']       |           ['jesus', 'mandolin']           |
+|                  \                  |   ['wilson', 'saxophone']    |           ['anderson', 'piano']           |
+|                  \                  |    ['anderson', 'drums']     |          ['brown', 'blues scale']         |
+|                  \                  |     ['jones', 'guitar']      |          ['brown', 'synthesizer']         |
+|                  \                  |   ['thompson', 'trumpet']    |           ['jones', 'keyboard']           |
+|                  \                  |    ['thompson', 'piano']     |            ['james xx', 'bass']           |
+|                  \                  |       ['lee', 'piano']       |            ['howard', 'piano']            |
+|                  \                  |   ['thompson', 'keyboard']   |         ['davidbass', 'keyboards']        |
++-------------------------------------+------------------------------+-------------------------------------------+
+==================================================
+Relation: P127_owned_by
+Prompts:
+- 1.0000 <ENT1> is the owner of the <ENT0> format .
+Harvested Tuples:
++-----------------------------------------------+------------------------------+-------------------------------------------+
+|                  Seed samples                 |        Ours (Top 20)         | Ours (Random samples over top 200 tuples) |
++-----------------------------------------------+------------------------------+-------------------------------------------+
+|     ['Revolution Analytics', 'Microsoft']     |      ['audio', 'sony']       |       ['Danish Newspaper', 'jacob']       |
+|              ['U-matic', 'Sony']              |      ['video', 'sony']       |             ['csv', 'python']             |
+|         ['Google Contacts', 'Google']         |    ['video', 'microsoft']    |         ['magazine', 'bloomberg']         |
+| ['Save-On-Foods Memorial Centre', 'Victoria'] |    ['audio', 'microsoft']    |            ['unicode', 'intel']           |
+|       ['Microsoft TechNet', 'Microsoft']      |    ['video', 'nintendo']     |              ['film', 'fox']              |
+|                       \                       |     ['video', 'google']      |             ['mail', 'oracle']            |
+|                       \                       |       ['file', 'user']       |         ['popular news', 'daniel']        |
+|                       \                       |     ['video', 'amazon']      |            ['binary', 'linux']            |
+|                       \                       | ['spreadsheet', 'microsoft'] |           ['magazine', 'apple']           |
+|                       \                       |       ['pdf', 'james']       |              ['text', 'mark']             |
+|                       \                       |     ['podcast', 'james']     |             ['vxml', 'jason']             |
+|                       \                       |      ['audio', 'apple']      |              ['data', 'user']             |
+|                       \                       |    ['podcast', 'andrew']     |             ['pdf', 'author']             |
+|                       \                       |    ['text', 'microsoft']     |          ['database', 'builder']          |
+|                       \                       |     ['podcast', 'chris']     |       ['metadata', 'documentation']       |
+|                       \                       |     ['podcast', 'john']      |            ['movie', 'netflix']           |
+|                       \                       |     ['audio', 'amazon']      |           ['kernel', 'windows']           |
+|                       \                       |       ['pdf', 'john']        |           ['newsletter', 'tom']           |
+|                       \                       |       ['pdf', 'alice']       |         ['spreadsheet', 'google']         |
+|                       \                       |      ['podcast', 'tom']      |              ['gif', 'james']             |
++-----------------------------------------------+------------------------------+-------------------------------------------+
+==================================================
+Relation: P103_native_language
+Prompts:
+- 1.0000 <ENT0> is a <ENT1> writer best known for his work "the cossacks", a story about the cossacks of the don .
+Harvested Tuples:
++---------------------------------+-----------------------------------------+-------------------------------------------+
+|           Seed samples          |              Ours (Top 20)              | Ours (Random samples over top 200 tuples) |
++---------------------------------+-----------------------------------------+-------------------------------------------+
+|  ['Eduardo Duhalde', 'Spanish'] | ['michael cooper', 'journalist turned'] |          ['thompson', 'Canadian']         |
+|  ['Gabriel Hanotaux', 'French'] |  ['michael lang', 'journalist turned']  |           ['tolkien', 'fantasy']          |
+|        ['Ovid', 'Latin']        |          ['smith', 'Canadian']          |         ['sean lang', 'Southican']        |
+|    ['Denys Corbet', 'French']   |         ['thompson', 'Canadian']        |      ['seanh', 'Vietnamese Language']     |
+| ['Olga Medvedtseva', 'Russian'] |          ['jones', 'Canadian']          |           ['adamuel', 'Mexican']          |
+|                \                |          ['white', 'Canadian']          |           ['edwarde', 'Belgian']          |
+|                \                |         ['johnson', 'Canadian']         |            ['singh', 'Bengal']            |
+|                \                |         ['thompson', 'Scottish']        |      ['craigpatrick', 'Newfoundland']     |
+|                \                |          ['smith', 'Scottish']          |  ['michael cooper', 'journalist turned']  |
+|                \                |           ['smith', 'British']          |            ['pierre', 'French']           |
+|                \                |         ['thompson', 'British']         |           ['adamu', 'japanese']           |
+|                \                |          ['jones', 'Scottish']          |          ['however', 'prolific']          |
+|                \                |           ['jones', 'British']          |          ['robinh', 'Vietnamese']         |
+|                \                |         ['johnson', 'Scottish']         |             ['hong', 'bengal']            |
+|                \                |           ['smith', 'fiction']          |      ['patrick taylor', 'freelance']      |
+|                \                |          ['johnson', 'British']         |            ['smith', 'British']           |
+|                \                |           ['white', 'British']          |        ['adamathan', 'tamiluvian']        |
+|                \                |          ['white', 'Scottish']          |           ['jones', 'Canadian']           |
+|                \                |           ['jones', 'fiction']          |            ['susan', 'Turkish']           |
+|                \                |          ['johnson', 'fiction']         |    ['washington', 'journalist turned']    |
++---------------------------------+-----------------------------------------+-------------------------------------------+
+==================================================
+Relation: P190_twinned_administrative_body
+Prompts:
+- 1.0000 There is a special relationship between <ENT0> and <ENT1>, as the two cities are twinned with each other .
+Harvested Tuples:
++---------------------------------+--------------------------+-------------------------------------------+
+|           Seed samples          |      Ours (Top 20)       | Ours (Random samples over top 200 tuples) |
++---------------------------------+--------------------------+-------------------------------------------+
+|       ['Accra', 'Chicago']      |    ['Tokyo', 'Osaka']    |            ['Rome', 'Syracuse']           |
+|        ['Seoul', 'Tokyo']       |    ['Tokyo', 'Kyoto']    |           ['Osaka', 'Fukushima']          |
+| ['Rio de Janeiro', 'Jerusalem'] | ['Beijing', 'Shanghai']  |             ['Baste', 'Bihar']            |
+|      ['Vienna', 'Istanbul']     | ['Shanghai', 'Beijing']  |          ['Beijing', 'Shanghai']          |
+|      ['Busan', 'Istanbul']      |    ['Tokyo', 'Seoul']    |         ['Barcelona', 'Catalonia']        |
+|                \                |  ['Seoul', 'Pyongyang']  |              ['Kien', 'Hien']             |
+|                \                |   ['Mumbai', 'Delhi']    |              ['Wich', 'Tho']              |
+|                \                |  ['Mumbai', 'Chennai']   |          ['Singapore', 'Chennai']         |
+|                \                |  ['Budapest', 'Prague']  |         ['Melbourne', 'Adelaide']         |
+|                \                |  ['Istanbul', 'Ankara']  |           ['Montreal', 'Quebec']          |
+|                \                | ['Toronto', 'Vancouver'] |            ['Basra', 'Kerman']            |
+|                \                | ['Guangzhou', 'Guangxi'] |            ['Hong Ha', 'Hangu']           |
+|                \                | ['Toronto', 'Montreal']  |           ['Osaka', 'Hiroshima']          |
+|                \                | ['London', 'Manchester'] |          ['Changzhou', 'Jiangsu']         |
+|                \                |   ['London', 'Paris']    |             ['Tokyo', 'Kyoto']            |
+|                \                | ['Bangalore', 'Chennai'] |            ['Changjin', 'Jju']            |
+|                \                |  ['Berlin', 'Hamburg']   |             ['Tian Yu', 'Hue']            |
+|                \                | ['London', 'Edinburgh']  |           ['Harua', 'Auckland']           |
+|                \                | ['Bangkok', 'Singapore'] |          ['Karachi', 'Bangalore']         |
+|                \                | ['Mumbai', 'Bangalore']  |         ['Vancouver', 'Edmonton']         |
++---------------------------------+--------------------------+-------------------------------------------+
+==================================================
+Relation: P1001_applies_to_jurisdiction
+Prompts:
+- 1.0000 The <ENT0> is <ENT1>'s highest court .
+Harvested Tuples:
++--------------------------------------------------------------+--------------------------------------------+-------------------------------------------+
+|                         Seed samples                         |               Ours (Top 20)                | Ours (Random samples over top 200 tuples) |
++--------------------------------------------------------------+--------------------------------------------+-------------------------------------------+
+| ['Speaker of the National Assembly of Pakistan', 'Pakistan'] |            ['Supreme', 'India']            |       ['Indian Government', 'world']      |
+|                ['Hamburg Police', 'Hamburg']                 |     ['Federal Courthouse', 'Maryland']     |      ['federal district', 'Maryland']     |
+|                   ['Indian Act', 'Canada']                   | ['highest commissioner', 'United Kingdom'] |      ['commonwealth', 'Pennsylvania']     |
+|         ['Secretaría de Inteligencia', 'Argentina']          |           ['bench', 'Australia']           |            ['Reich', 'Bavaria']           |
+|        ['Reference re Secession of Quebec', 'Canada']        |            ['bench', 'Canada']             |           ['Bar', 'California']           |
+|                              \                               |      ['federal courthouse', 'Hawaii']      |            ['crown', 'Sweden']            |
+|                              \                               |      ['federal district', 'Maryland']      |           ['tribunal', 'Taiwan']          |
+|                              \                               |          ['Supreme', 'Australia']          |            ['Senate', 'India']            |
+|                              \                               |          ['Senate', 'Australia']           |           ['board', 'Singapore']          |
+|                              \                               |            ['Senate', 'Canada']            |          ['Republic', 'Romania']          |
+|                              \                               |             ['Yuan', 'China']              |             ['Yang', 'Taiwan']            |
+|                              \                               |            ['Supreme', 'Japan']            |             ['Junta', 'Burma']            |
+|                              \                               |             ['Bench', 'India']             |             ['Mint', 'Brazil']            |
+|                              \                               |            ['Hague', 'Denmark']            |            ['Hague', 'Denmark']           |
+|                              \                               |       ['Circuit', 'North Carolina']        |          ['Luxembourg', 'France']         |
+|                              \                               |       ['Judiciary', 'South Africa']        |            ['Pragan', 'Praya']            |
+|                              \                               |            ['Queen', 'Britain']            |            ['Swiss', 'France']            |
+|                              \                               |         ['council', 'South Wales']         |          ['Senate', 'Australia']          |
+|                              \                               |           ['Hague', 'Australia']           |            ['Appeal', 'Brazil']           |
+|                              \                               |            ['Hague', 'Canada']             |        ['Commonwealth', 'Virginia']       |
++--------------------------------------------------------------+--------------------------------------------+-------------------------------------------+
+==================================================
+Relation: P31_instance_of
+Prompts:
+- 1.0000 Surrey, england is home to a <ENT1> called the <ENT0> .
+Harvested Tuples:
++-------------------------------------+----------------------------------+-------------------------------------------+
+|             Seed samples            |          Ours (Top 20)           | Ours (Random samples over top 200 tuples) |
++-------------------------------------+----------------------------------+-------------------------------------------+
+| ['Imperial Service Order', 'award'] |     ['Gold Rush', 'period']      |            ['river', 'feature']           |
+|  ['Antichrist Superstar', 'album']  | ['Jurassic', 'geological epoch'] |            ['Emerald', 'jewel']           |
+|        ['Yota', 'trademark']        |   ['ice rink', 'skating rink']   |      ['Goldmine', 'mining operation']     |
+|       ['Heineken', 'brewery']       |   ['cluster', 'large cluster']   |         ['Royal House', 'mansion']        |
+|      ['Malaysia Today', 'blog']     |  ['marsh', 'freshwater marsh']   |         ['Chain', 'Fishing Chain']        |
+|                  \                  |    ['Pacific', 'vast ocean']     |   ['volcanic', 'geological formations']   |
+|                  \                  |    ['worm', 'parasitic worm']    |      ['Goldfield', 'Mining District']     |
+|                  \                  |   ['eagle', 'great predator']    |        ['coaster', 'popular ride']        |
+|                  \                  |   ['red carp', 'common pest']    |             ['Kraken', 'fish']            |
+|                  \                  |      ['gold rush', 'story']      |             ['river', 'lake']             |
+|                  \                  |   ['sun', 'mysterious object']   |          ['white reef', 'coral']          |
+|                  \                  |      ['green tea', 'drink']      |  ['Renaissance', 'cultural renaissance']  |
+|                  \                  |    ['blues', 'musical genre']    |       ['Pier', 'famous attraction']       |
+|                  \                  | ['sponge', 'freshwater sponge']  |          ['Sand Mine', 'quarry']          |
+|                  \                  |   ['gorilla', 'giant gorilla']   |             ['pearl', 'plant']            |
+|                  \                  |    ['forum', 'popular forum']    |             ['whale', 'bird']             |
+|                  \                  |    ['Eclipse', 'Solar Event']    |         ['Grand Fort', 'fortress']        |
+|                  \                  |  ['Jurassic', 'geological age']  |          ['plain', 'vast plain']          |
+|                  \                  |  ['Pirate', 'notorious pirate']  |            ['pearl', 'species']           |
+|                  \                  |     ['blues', 'music genre']     |       ['marathon', 'running event']       |
++-------------------------------------+----------------------------------+-------------------------------------------+
+==================================================
+Relation: P495_country_of_origin
+Prompts:
+- 1.0000 <ENT0> is an online store that was founded in <ENT1> in 2006 .
+Harvested Tuples:
++---------------------------+-----------------------------+-------------------------------------------+
+|        Seed samples       |        Ours (Top 20)        | Ours (Random samples over top 200 tuples) |
++---------------------------+-----------------------------+-------------------------------------------+
+|   ['Beneteau', 'France']  |    ['amazon', 'Seattle']    |            ['retento', 'Italy']           |
+|      ['Larb', 'Laos']     |   ['amazon', 'California']  |           ['target', 'Germany']           |
+|    ['Tridev', 'India']    |   ['amazon', 'Australia']   |           ['free', 'Singapore']           |
+|   ['Golgo 13', 'Japan']   | ['google', 'San Francisco'] |         ['discover', 'California']        |
+| ['Crazed Fruit', 'Japan'] |      ['shop', 'London']     |             ['gzip', 'Poland']            |
+|             \             |   ['aladdin', 'Abu Dhabi']  |            ['steam', 'Canada']            |
+|             \             |    ['amazon', 'Germany']    |            ['chaos', 'Phoenix']           |
+|             \             |     ['shop', 'Germany']     |           ['frozen', 'Finland']           |
+|             \             |    ['shop', 'Singapore']    |            ['price', 'London']            |
+|             \             |      ['shop', 'Israel']     |            ['jest', 'Denmark']            |
+|             \             |     ['amazon', 'London']    |           ['amazon', 'Germany']           |
+|             \             |      ['shop', 'Japan']      |          ['amazon', 'Australia']          |
+|             \             |  ['grab', 'San Francisco']  |           ['victoria', 'France']          |
+|             \             |  ['brave', 'San Francisco'] |          ['alaska', 'Copenhagen']         |
+|             \             |   ['minecraft', 'Sweden']   |             ['uber', 'Berlin']            |
+|             \             |    ['paytm', 'Bengaluru']   |            ['hama', 'Bahrain']            |
+|             \             |   ['minecraft', 'Germany']  |            ['paytm', 'Mumbai']            |
+|             \             |  ['alice', 'San Francisco'] |         ['victoria', 'Melbourne']         |
+|             \             |   ['google', 'California']  |            ['russia', 'Moscow']           |
+|             \             |   ['salt', 'South Wales']   |             ['ebay', 'Dubai']             |
++---------------------------+-----------------------------+-------------------------------------------+
+==================================================
+Relation: P159_headquarters_location
+Prompts:
+- 1.0000 The <ENT0> is based in <ENT1> .
+Harvested Tuples:
++-----------------------------------------------------+----------------------------------+-------------------------------------------+
+|                     Seed samples                    |          Ours (Top 20)           | Ours (Random samples over top 200 tuples) |
++-----------------------------------------------------+----------------------------------+-------------------------------------------+
+| ['Indian Space Research Organisation', 'Bangalore'] |    ['web browser', 'Firefox']    |         ['News Agency', 'Jakarta']        |
+|    ['Liquor Control Board of Ontario', 'Toronto']   |      ['app', 'Google App']       |         ['comic', 'south america']        |
+|            ['Telehouse Europe', 'London']           |    ['team', 'San Francisco']     |            ['post', 'English']            |
+|       ['University of Kentucky', 'Lexington']       |        ['game', 'Tokyo']         |           ['browser', 'Chrome']           |
+|          ['Fraser Institute', 'Vancouver']          |        ['game', 'London']        |            ['study', 'Germany']           |
+|                          \                          |        ['site', 'London']        |            ['series', 'Tokyo']            |
+|                          \                          |        ['game', 'Japan']         |          ['project', 'Singapore']         |
+|                          \                          |   ['research paper', 'Nature']   |         ['team', 'San Francisco']         |
+|                          \                          |      ['site', 'Singapore']       |          ['poll', 'online polls']         |
+|                          \                          | ['journal', 'Oxford University'] |           ['game', 'Stockholm']           |
+|                          \                          |   ['recipe', 'coconut water']    |              ['map', 'Cairo']             |
+|                          \                          |      ['project', 'London']       |           ['system', 'Haskell']           |
+|                          \                          |      ['game', 'Stockholm']       |          ['website', 'Melbourne']         |
+|                          \                          |        ['site', 'Tokyo']         |          ['video', 'Real World']          |
+|                          \                          |      ['site', 'Melbourne']       |          ['algorithm', 'Haskell']         |
+|                          \                          |      ['project', 'Berlin']       |           ['series', 'Toronto']           |
+|                          \                          |      ['article', 'London']       |             ['post', 'German']            |
+|                          \                          |      ['article', 'German']       |      ['publication', 'San Francisco']     |
+|                          \                          |      ['article', 'English']      |           ['table', 'brackets']           |
+|                          \                          |     ['design', 'solid wood']     |             ['game', 'Japan']             |
++-----------------------------------------------------+----------------------------------+-------------------------------------------+
+==================================================
+Relation: P36_capital
+Prompts:
+- 1.0000 The capital of <ENT0> is <ENT1> .
+Harvested Tuples:
++-----------------------------------+-------------------------------+-------------------------------------------+
+|            Seed samples           |         Ours (Top 20)         | Ours (Random samples over top 200 tuples) |
++-----------------------------------+-------------------------------+-------------------------------------------+
+| ['Onslow County', 'Jacksonville'] |    ['Sri Lanka', 'Sri Ko']    |           ['Korea', 'Pyongyang']          |
+|     ['Bates County', 'Butler']    |       ['Iran', 'Tehran']      |            ['India', 'Jakarta']           |
+|   ['Kingdom of France', 'Paris']  |    ['Israel', 'Jerusalem']    |            ['Armenia', 'Cairo']           |
+|    ['Czechoslovakia', 'Prague']   |   ['Lithuania', 'Helsinki']   |            ['Russia', 'Warsaw']           |
+|  ['Guernsey County', 'Cambridge'] |       ['Japan', 'Tokyo']      |             ['Poland', 'kiev']            |
+|                 \                 |      ['Russia', 'Moscow']     |         ['Venezuela', 'Valencia']         |
+|                 \                 |      ['Poland', 'Warsaw']     |             ['Iran', 'Tehran']            |
+|                 \                 |      ['Greece', 'Athens']     |              ['Kala', 'Kasu']             |
+|                 \                 |    ['Finland', 'Helsinki']    |         ['Australia', 'Melbourne']        |
+|                 \                 |      ['India', 'Chennai']     |           ['Colombia', 'Toledo']          |
+|                 \                 |    ['Lithuania', 'Warsaw']    |           ['Lithuania', 'Kiev']           |
+|                 \                 | ['north americ', 'nashville'] |              ['Pia', 'Palau']             |
+|                 \                 |       ['Korea', 'Seoul']      |          ['Venezuela', 'Madrid']          |
+|                 \                 |        ['Peru', 'Lima']       |              ['Kha', 'Nepal']             |
+|                 \                 |    ['Hungary', 'Budapest']    |             ['Kwan', 'Kawan']             |
+|                 \                 |      ['Canada', 'Ottawa']     |            ['Poland', 'Prague']           |
+|                 \                 |   ['Denmark', 'Copenhagen']   |       ['North Province', 'Edmonton']      |
+|                 \                 |       ['India', 'Delhi']      |         ['Slovenia', 'Stockholm']         |
+|                 \                 |      ['France', 'Paris']      |           ['Venezuela', 'Lima']           |
+|                 \                 |     ['India', 'Bangalore']    |            ['Latvia', 'Athens']           |
++-----------------------------------+-------------------------------+-------------------------------------------+
+==================================================
+Relation: P740_location_of_formation
+Prompts:
+- 1.0000 <ENT0> is a <ENT1>-based band .
+Harvested Tuples:
++-----------------------------+-------------------------------+-------------------------------------------+
+|         Seed samples        |         Ours (Top 20)         | Ours (Random samples over top 200 tuples) |
++-----------------------------+-------------------------------+-------------------------------------------+
+|  ['Bee Gees', 'Manchester'] | ['white light', 'wavelength'] |           ['wong', 'Hong Kong']           |
+|   ['Filippa K', 'Sweden']   |    ['white light', 'color']   |   ['heavy weight', 'traditional roots']   |
+|  ['Beat Circus', 'Boston']  |    ['white light', 'phase']   |         ['string', 'Minneapolis']         |
+|   ['Alfaguara', 'Madrid']   |   ['blue steel', 'Detroit']   |             ['alpha', 'metal']            |
+| ['The Qemists', 'Brighton'] |   ['blue steel', 'Glasgow']   |         ['vector', 'synthesizer']         |
+|              \              |   ['power', 'South Florida']  |             ['gold', 'Japan']             |
+|              \              |      ['wolf', 'Seattle']      |             ['tank', 'Berlin']            |
+|              \              |      ['alice', 'Seattle']     |           ['alpha', 'frequency']          |
+|              \              |  ['company', 'San Francisco'] |            ['pokemon', 'Tokyo']           |
+|              \              |      ['wolf', 'Chicago']      |            ['wai', 'Hong Kong']           |
+|              \              |   ['power', 'South Georgia']  |            ['alice', 'Chicago']           |
+|              \              |       ['wolf', 'London']      |             ['japan', 'Tokyo']            |
+|              \              |  ['white oak', 'percussion']  |       ['craig', 'Northern Ireland']       |
+|              \              |   ['live', 'San Francisco']   |          ['contact', 'Vancouver']         |
+|              \              |      ['wolf', 'Toronto']      |           ['software', 'guitar']          |
+|              \              |   ['close', 'San Francisco']  |            ['rare', 'Seattle']            |
+|              \              |    ['thor', 'South Wales']    |             ['lint', 'Sydney']            |
+|              \              |      ['wolf', 'Brooklyn']     |            ['salt', 'Portland']           |
+|              \              |    ['war', 'San Francisco']   |         ['abstract', 'popular uk']        |
+|              \              |      ['alice', 'London']      |            ['europe', 'Berlin']           |
++-----------------------------+-------------------------------+-------------------------------------------+
+==================================================
+Relation: P361_part_of
+Prompts:
+- 1.0000 The <ENT0> is the female reproductive part of a <ENT1> .
+Harvested Tuples:
++-------------------------------------+------------------------------------+-------------------------------------------+
+|             Seed samples            |           Ours (Top 20)            | Ours (Random samples over top 200 tuples) |
++-------------------------------------+------------------------------------+-------------------------------------------+
+|   ['aquarium filter', 'aquarium']   |       ['bat', 'cricket bat']       |             ['womna', 'womba']            |
+|   ['Northern Crusades', 'Crusade']  |     ['Kernel', 'Linux Kernel']     |          ['mastodon', 'dinosaur']         |
+|      ['North America', 'Earth']     | ['submarine', 'nuclear submarine'] |            ['moth', 'species']            |
+|    ['Northern Range', 'Trinidad']   |        ['uterus', 'woman']         |            ['mastar', 'mastax']           |
+| ['Post Office Protocol 3', 'email'] |     ['milk tube', 'milk duct']     |             ['apple', 'peach']            |
+|                  \                  |      ['bomb', 'nuclear bomb']      |             ['embryo', 'baby']            |
+|                  \                  |      ['hen', 'poultry flock']      |             ['rat', 'chicken']            |
+|                  \                  |       ['Mine', 'Coal Mine']        |             ['louse', 'larva']            |
+|                  \                  |        ['vagina', 'woman']         |         ['bladder', 'male organ']         |
+|                  \                  |        ['uterus', 'person']        |           ['cypress', 'cyborg']           |
+|                  \                  |          ['penis', 'man']          |             ['shell', 'snail']            |
+|                  \                  |      ['shrew', 'large shrew']      |      ['fertilization', 'fertiliser']      |
+|                  \                  |      ['fuse', 'nuclear fuse']      |             ['apple', 'pear']             |
+|                  \                  |         ['uterus', 'man']          |         ['mitochondria', 'system']        |
+|                  \                  |          ['egg', 'fetus']          |           ['diver', 'Sea Diver']          |
+|                  \                  |          ['egg', 'sperm']          |            ['louse', 'larval']            |
+|                  \                  |      ['barrel', 'gun barrel']      |      ['sex index', 'given variable']      |
+|                  \                  |        ['vagina', 'person']        |    ['patriarchy', 'capitalist economy']   |
+|                  \                  |  ['sex index', 'given variable']   |       ['Female Chromosome', 'gene']       |
+|                  \                  |   ['elephant', 'wild elephant']    |            ['mother', 'child']            |
++-------------------------------------+------------------------------------+-------------------------------------------+
+==================================================
