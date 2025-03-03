@@ -1,46 +1,46 @@
 [
     [
         "<ENT0> can <ENT1> that students have .",
-        0.1172047660997406
+        0.11720451936630558
     ],
     [
         "Something that <ENT0> can typically do is <ENT1> .",
-        0.11690079042621467
+        0.11690068821309754
     ],
     [
         "One of the many things that <ENT0> are able to do is <ENT1> .",
-        0.10003912701496949
+        0.1000396954447489
     ],
     [
         "One of the skills that <ENT0> usually have is the ability to <ENT1> .",
-        0.09960839782588445
+        0.09960824881340886
     ],
     [
         "A typical thing that a <ENT0> can do is to <ENT1> .",
-        0.09505893163825087
+        0.09505865550633104
     ],
     [
         "<ENT0> can typically <ENT1>, which is when they scope out place in advance to see if it's good target for a .",
-        0.09460270115374333
+        0.09460265156108112
     ],
     [
         "One thing that <ENT0> usually do is <ENT1> .",
-        0.09263855238195873
+        0.0926385199585256
     ],
     [
         "<ENT0> can <ENT1> .",
-        0.08969024604240587
+        0.08969025564287451
     ],
     [
         "<ENT0> can <ENT1>, or an arewhere they plan to commit crime, by scouting it out in advance to get an idea .",
-        0.07485209475437472
+        0.07485211452773384
     ],
     [
         "<ENT0> can <ENT1> beforehand in order to scope out the layout and find the best way to rob the place .",
-        0.0610292186009904
+        0.06102933212328384
     ],
     [
         "<ENT0> often \"<ENT1>\" which means they study and assess a potential target in advance .",
-        0.05837517406146685
+        0.058375318842609276
     ]
 ]
